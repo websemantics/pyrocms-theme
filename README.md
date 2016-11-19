@@ -1,8 +1,13 @@
 ![Web Semantics, Inc. PyroCMS 3 Admin Theme](https://websemantics.github.io/pyrocms-theme/assets/img/pyrocms.svg)
 > Hand crafted, multi-skinned, responsive and easily customizable PyroCMS 3 admin theme built for a much refined and intuitive user experience. An absolute labor of love to make possible ultimate control over style and layout. Welcome to a new way to build PyroCMS 3 admin themes.
 
+## Screenshot
+
+The following screen is for the default theme skin features a sidebar. 
+
 ![Pyrocms Theme Default](https://websemantics.github.io/pyrocms-theme/assets/skin/default.png)
-> Every single line of code or style was carefully placed to perform a function or improve overall user experience. The style rules were streamlined and organized in an easy to follow fashion making this theme easy to understand and extremely straightforward to extend and customize. A number of skins have been built to demonstrate how to customize and style this theme for your ultimate satisfaction.
+
+Every single line of code or style was carefully placed to perform a function or improve overall user experience. The style rules were streamlined and organized in an easy to follow fashion making this theme easy to understand and extremely straightforward to extend and customize. A number of skins have been built to demonstrate how to customize and style this theme for your ultimate satisfaction.
 
 ## Install
 
