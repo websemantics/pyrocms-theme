@@ -1,0 +1,51 @@
+{% extends "theme::layouts/login" %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="row">
+{% if setting_value('websemantics.theme.pyrocms::skin') == 'pyrocms' %}            
+            <div class="col-lg-6 col-lg-offset-9 col-md-10 col-md-offset-7 col-sm-10 col-sm-offset-7">
+                <div class="logo">
+                    {{ img('pyrocms.theme.pyrocms::img/logo-white.png').height(55)|raw }}
+                </div>
+{% else %}
+            <div class="col-lg-24">
+                <h2 class="header">
+                   Login to your account
+                </h2>
+{% endif %}
+                {% include "pyrocms.theme.pyrocms::partials/messages" %}
+
+                {{ form_open({'method': 'post'}) }}
+
+                <div class="form-group credentials">
+
+                    {% if setting_value('anomaly.module.users::login') == 'username' %}
+                        {{ form_text("username", null, {'class': 'form-control', 'placeholder': 'Username'}) }}{{ icon('user') }}
+                    {% else %}
+                        {{ form_email("email", null, {'class': 'form-control', 'placeholder': 'Email'}) }}{{ icon('envelope') }}
+                    {% endif %}
+
+                    {{ form_password('password', {'class': 'form-control', 'placeholder': 'Password'}) }}{{ icon('locked') }}
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" value="Login" class="btn btn-success btn-block">
+                        {{ trans('anomaly.module.users::button.login') }}
+                    </button>
+                </div>
+
+                <div class="form-group checkbox">
+                    <label>
+                        {{ form_checkbox("remember", null, false, {'id': 'remember'}) }}
+                        {{ trans('anomaly.module.users::field.remember_me.name') }}
+                    </label>
+                </div>
+
+                {{ form_close() }}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

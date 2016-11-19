@@ -1,0 +1,32 @@
+body:not(.pyrocms) {
+    #sections {
+        margin: 0.75rem 1rem;
+        ul {
+            li {
+                &:not(.active) {
+                    display: none;
+                }
+                a {
+                    font-size: 2em;
+                    color: $gray!important;
+                    &:after {
+                        content: ''!important;
+                    }
+                }
+            }
+        }
+        
+        .description {
+            color: $gray-light;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+    #sections {
+            display: inline-block;
+            ul li a {
+                font-size: 1.2em;
+            }
+        }
+    }
+}

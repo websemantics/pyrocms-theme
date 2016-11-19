@@ -1,0 +1,6 @@
+body:not(.pyrocms) {
+    #sidebar .nav > li.dropdown > a:after {
+        float: none;
+        margin-left: 10px;
+    }
+}

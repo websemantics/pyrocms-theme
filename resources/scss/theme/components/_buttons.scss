@@ -1,0 +1,11 @@
+body:not(.pyrocms) {
+    .btn {
+        border-radius: $border-radius;
+    }
+    .btn-secondary-outline {
+        border-color: rgba(0, 0, 0, 0.2);
+        &:hover {
+            background: rgba(0, 0, 0, 0.2);
+        }
+    }
+}

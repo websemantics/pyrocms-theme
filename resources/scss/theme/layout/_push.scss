@@ -1,0 +1,26 @@
+#push {
+    top: 0;
+    width: 100%;
+    padding: 0 2em;
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background: lighten($nav-bg, 10%);
+
+    .dismiss {
+        &:hover {
+            color: darken($gray-lighter, 40%);
+        }
+    }
+}
+
+body.pushing {
+    #push {
+        padding: 2em;
+        max-height: 1000px;
+    }
+}

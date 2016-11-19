@@ -1,0 +1,33 @@
+{
+    "name": "websemantics/pyrocms-theme",
+    "type": "streams-addon",
+    "description": "PyroCMS admin theme",
+    "keywords": [
+      "pyrocms",
+      "laravel",
+        "addon",
+        "theme"
+    ],
+    "homepage": "http://websemantics.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "websemantics",
+            "email": "suport@websemantics.com",
+            "homepage": "http://websemantics.com/",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "email": "support@websemantics.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Websemantics\\PyrocmsTheme\\": "src/"
+        }
+    },
+     "require": {
+        "anomaly/settings-module": "~2.1",
+        "pyrocms/pyrocms-theme": "~1.1"
+    }
+}

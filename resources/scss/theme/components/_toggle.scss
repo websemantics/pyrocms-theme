@@ -1,0 +1,19 @@
+body:not(.pyrocms) {
+    .btn.toggle {
+        margin: 0;
+        height: 100%;
+        border-radius: 0;
+        border: 0;
+        outline: none;
+        font-size: large;
+        color: $toggle-text-color;
+        background-color: $toggle-bg;
+        -webkit-transition: all 0.35s ease-out;
+        transition: all 0.35s ease-out;
+        &:hover {
+            opacity: $toggle-hover-text-opacity;
+            color: $toggle-hover-text-color;
+            background-color: #000;
+        }
+    }
+}

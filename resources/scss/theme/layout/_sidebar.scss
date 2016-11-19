@@ -1,0 +1,143 @@
+body:not(.pyrocms) {
+    #sidebar {
+        position: fixed;
+        height: 100%;
+        width: $sidebar-width;
+        overflow-y: auto;
+        background: $sidebar-bg;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        .nav {
+            margin: 0;
+            padding: 0;
+            width: $sidebar-width;
+            list-style: none;
+            > li {
+                text-indent: $sidebar-text-indent;
+                a {
+                    display: block;
+                    padding: 15px 0;
+                    text-decoration: none;
+                    color: $sidebar-text-color;
+                    i {
+                        font-size: $sidebar-icon-font-size;
+                        padding: $sidebar-icon-padding;
+                        color: $sidebar-icon-color;
+                        float: $sidebar-icon-float;
+                        vertical-align: middle;
+                    }
+                }
+                &:hover, &.active, &.dropdown.open {
+                    background-color: $sidebar-active-bg;
+                    > a, i {
+                        color: $sidebar-active-text-color;
+                    }
+                }
+                &.dropdown {
+                    @if ($show-navbar) {
+                        display: none;
+                    }
+                    .dropdown-menu {
+                        margin: 0;
+                        border: 0;
+                        float: none;
+                        color: $sidebar-text-color;
+                        position: inherit;
+                        padding: 0 0 0 40px;
+                        background: lighten($sidebar-bg, 6%);
+                        .media {
+                            margin: 0;
+                            padding: 15px 0;
+                            .media-left {
+                                padding: 0; 
+                                .media-object {
+                                    width: 55px;
+                                }
+                            }
+                            .media-body {
+                                text-indent: 20px; 
+                            }
+                        }
+                    }
+                    > a:after {
+                        color: $sidebar-text-color;
+                        font-family: FontAwesome;
+                        content: "\f0d7";
+                        float: right;
+                        margin-right: 10px;
+                    }
+                    &.open {
+                        > a:after {
+                            content: "\f0d8";
+                        }
+                    }
+                }
+            }
+            &:last-child {
+                @if ($show-navbar) {
+                    display: none;
+                }
+            }
+            .subnav {
+                margin: 0;
+                list-style: none;
+                padding-left: 70px;
+                background: lighten($sidebar-bg, 6%);
+                > li {
+                    position: relative;
+                    text-indent: 8px;
+                    a {
+                        padding: 7px 0;
+                        color: $sidebar-text-color;
+                    }
+                    &:hover, &.active {
+                        color: $sidebar-sub-active-text-color;
+                        background: transparent;
+                        a {
+                            color: $sidebar-sub-active-text-color;
+                        }
+                    }
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        top: 0px;
+                        left: -20px;
+                        border-left: 1px solid $sidebar-tree-color;
+                        border-bottom: 1px solid $sidebar-tree-color;
+                        border-radius: 0 0 0 0px;
+                        width: 20px;
+                        height: 21px;
+                    }
+                    &:not(:last-child):after {
+                        content: "";
+                        position: absolute;
+                        top: 20px;
+                        left: -20px;
+                        border-left: 1px solid $sidebar-tree-color;
+                        border-top: 1px solid $sidebar-tree-color;
+                        border-radius: 0px 0 0 0;
+                        width: 20px;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        #sidebar {
+            .nav {
+                    > li a {
+                            padding: 10px 0;
+                    }
+                .subnav {
+                    > li a {
+                            padding: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+body:not(.pyrocms) {
+    #menu {
+        li {
+            .dropdown-menu {
+                border: 0;
+            }
+        }
+    }
+}

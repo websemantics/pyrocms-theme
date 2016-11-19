@@ -1,0 +1,64 @@
+#brand {
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    background-color: $brand-bg;
+
+    svg {
+        height: 70px;
+        display: none;
+        path {
+            opacity: $brand-logo-opacity;
+            fill: $brand-logo-color;
+        }
+        &:first-child {
+            top: 3.9em;
+            position: relative;
+            display: inline-block;
+        }
+    }
+    & > .btn.toggle {
+        display: none;
+    }
+}
+
+body:not(.pyrocms) {
+    #brand {
+        float: none;
+        width: initial;
+        height: $brand-height;
+        text-align: left;
+        padding: 0 0 0 40px;
+        svg {
+            height: $brand-logo-height;
+            margin: $brand-logo-margin;
+            display: inline-block;
+            &:first-child {
+                display: none;
+            }
+        }
+        & > .btn.toggle {
+            @if ($show-navbar) {
+                display: none;
+            } @else {
+                display: inline-block;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        #brand {
+            height: $brand-mobile-height;
+            svg {
+                height: $brand-logo-mobile-height;
+                margin: $brand-logo-mobile-margin;
+            }
+            & > .btn.toggle {
+                display: inline-block;
+                i.fa:before {
+                     content: "\f00d";
+                }
+            }
+        }
+    }
+}

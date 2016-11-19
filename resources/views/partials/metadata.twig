@@ -1,0 +1,33 @@
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="csrf-token" content="{{ csrf_token() }}"/>
+
+<title>{{ trans('theme::control_panel.title') }} &#8250; {{ trans(template.breadcrumbs.all()|keys|last)|raw }}</title>
+
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="{{ image_path('theme::img/favicon.png') }}">
+<link rel="shortcut icon" type="image/x-icon" href="{{ image_path('theme::img/favicon.png') }}">
+<link rel="apple-touch-icon" type="image/x-icon" href="{{ image_path('theme::img/favicon.png') }}"/>
+
+{#{{ asset_add("theme.css", "theme::less/flat-ui/flat-ui.less") }}#}
+{{ asset_add("theme.css", "theme::scss/skin/" ~ setting_value('websemantics.theme.pyrocms::skin') ~ "/theme.scss") }}
+{{ asset_add("theme.css", "pyrocms.theme.pyrocms::less/fonts/fonts.less", ["parse"]) }}
+{{ asset_add("theme.js", "pyrocms.theme.pyrocms::js/vendor/*") }}
+{{ asset_add("theme.js", "pyrocms.theme.pyrocms::js/libraries/tether.min.js") }}
+{{ asset_add("theme.js", "pyrocms.theme.pyrocms::js/libraries/*") }}
+{{ asset_add("theme.js", "pyrocms.theme.pyrocms::js/theme/*") }}
+{{ asset_add("theme.js", "theme::js/*") }}
+
+{{ asset_style("theme.css") }}
+
+{% for style in asset_styles("styles.css") %}
+    {{ style|raw }}
+{% endfor %}
+
+{{ asset_script("theme.js") }}
+
+{{ constants() }}
+

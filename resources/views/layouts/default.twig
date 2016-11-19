@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        {% block metadata deferred %}
+        {% include "theme::partials/metadata" %}
+        {% endblock %}
+    </head>
+{% if setting_value('websemantics.theme.pyrocms::skin') != 'pyrocms' %}
+    <body class="pushing">
+        <main id="main">
+            <div id="sidebar">
+                {% include "theme::partials/brand" %}
+                {% include "theme::partials/sidebar" %}
+            </div>
+            <div id="content">
+                {% include "theme::partials/navbar" %}
+                {% include "theme::partials/header" %}
+{% else %}
+    <body class="pyrocms">
+        {% include "pyrocms.theme.pyrocms::partials/push" %}
+        {% include "theme::partials/brand" %}
+        {% include "theme::partials/navbar" %}
+        {% include "theme::partials/header" %}
+        <main id="main">
+{% endif %}
+            {% include "pyrocms.theme.pyrocms::partials/banner" %}
+            {% include "pyrocms.theme.pyrocms::partials/breadcrumbs" %}
+            <div class="container-fluid">
+                {% include "pyrocms.theme.pyrocms::partials/messages" %}
+            </div>
+            {{ block('content') }}
+{% if setting_value('websemantics.theme.pyrocms::skin') != 'pyrocms' %}
+            </div>
+            {% include "theme::partials/footer" %}
+        </main>
+{% else %}
+        </main>
+        {% include "theme::partials/footer" %}
+{% endif %}
+        {% include "pyrocms.theme.pyrocms::partials/modals" %}
+        {% include "pyrocms.theme.pyrocms::partials/js" %}
+    </body>
+</html>

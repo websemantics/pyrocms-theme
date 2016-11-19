@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    background-color: $body-bg;
+}
+body:not(.pyrocms) {
+    #main {
+        /*min-height: 100vh;*/
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        #sidebar {
+            left: 0;
+            margin-left: -$sidebar-width;
+        }
+        #content {
+            min-height: 100vh;
+        }
+    }
+    &.pushing {
+            #main {
+            padding-left: $sidebar-width;
+            #sidebar {
+                width: $sidebar-width;
+                margin-left: 0;
+            }
+            #content {
+                .form .controls.top.affix {
+                    left: $sidebar-width;
+                }        
+            }
+        } 
+    }
+
+    @include media-breakpoint-down(sm) {
+        #main {
+            #sidebar {
+                z-index: 99999;
+            }
+        }
+        &.pushing {
+            #main {
+                padding-left: 0;
+                #sidebar {
+                    left: 0;
+                    margin-left: 0;
+                }
+            } 
+        }
+    }
+}

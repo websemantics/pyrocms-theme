@@ -1,0 +1,15 @@
+#footer {
+    background: $footer-bg;
+    ul {
+        li {
+            &.logo {
+                svg {
+                    height: 2em;
+                    path {
+                        fill: $footer-logo-color;
+                    }
+                }
+            }
+        }
+    }
+}

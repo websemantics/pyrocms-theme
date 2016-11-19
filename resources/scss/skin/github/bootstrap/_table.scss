@@ -1,0 +1,10 @@
+body:not(.pyrocms) {
+    table.table {
+        overflow: hidden;
+        thead th {
+            border-top: 0;
+            background-color: $gray-lightest;
+            border-bottom: 1px solid $gray-lighter;
+        }
+    }
+}

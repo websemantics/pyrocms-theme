@@ -1,0 +1,29 @@
+body:not(.pyrocms) {
+    #sidebar {
+        .nav {   
+            > li {
+                border-bottom: 1px solid $gray-light;
+                &:not(.active){
+                    border-right: 1px solid $gray-light;
+                }
+            }       
+            .subnav {
+                padding-left: 67px;
+                > li {
+                    &:before {
+                        font: normal normal normal 14px/1 FontAwesome; 
+                        content: "\f096";
+                        top: 13px;
+                        border: 0;
+                    }
+                    &.active:before  {
+                        content: "\f046";
+                    }
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+<section id="footer">
+    <ul>
+        <li class="logo">
+            <a href="http://pyrocms.com" target="_blank">
+                {{ image('theme::img/logo.svg').data()|raw }}
+            </a>
+        </li>
+        <li class="copyright">
+            &copy; {{ 'now'|date('Y') }} PyroCMS, Inc
+        </li>
+        <li class="footprint">
+            {{ request_time() }} <span>|</span> {{ memory_usage() }}
+        </li>
+        <li class="version">
+            {{ config('streams::distribution.version') }}
+        </li>
+    </ul>
+
+    <ul class="pull-right">
+        <li class="language">
+            <select class="c-select" onchange="window.location = '?_locale=' + this.value;">
+                {% for iso in config('streams::locales.supported')|keys %}
+                    <option value="{{ iso }}" {{ config('app.locale') == iso ? 'selected' }}>
+                        {{ trans('streams::locale.' ~ iso ~ '.name') }} ({{ iso }})
+                    </option>
+                {% endfor %}
+            </select>
+        </li>
+        <li class="help">
+            <a class="btn btn-danger btn-inverse btn-sm" href="http://pyrocms.com/docs" target="_blank" {#data-toggle="modal" data-target="#modal-help"#}>
+                {{ icon('question-circle') }} {{  trans('theme::control_panel.help') }}
+            </a>
+        </li>
+    </ul>
+</section>
+{% include "pyrocms.theme.pyrocms::partials/help" %}
+

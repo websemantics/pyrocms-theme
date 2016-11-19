@@ -1,0 +1,105 @@
+#login {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: $login-bg-color;;
+    .logo {
+        width: 100%;
+        opacity: 0.6;
+        text-align: center;
+        margin-bottom: 2em;
+        svg {
+            path {
+                fill: $white;
+            }
+        }
+    }
+    .left{
+        height:100%;
+        display : flex;
+        justify-content : center;
+        align-items : center;
+    }
+    .right{
+        height:100%;
+        display : flex;
+        justify-content : center;
+        align-items : center;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .header {
+        text-align: center;
+        color: $login-text-color;
+        margin-bottom: 25px;
+    }
+    .logo {
+        opacity: 1;
+        margin-bottom: 0;
+        svg {
+            width: 60%;
+            path {
+                fill: $login-text-color;
+            }
+        }   
+        &.draw {
+            path {
+                fill: $white;
+                stroke: $white;
+                fill-opacity: 0;
+                stroke-opacity: 0.5;
+                stroke-width: 1.25;
+                stroke-dasharray:406 408;
+                stroke-dashoffset:407;
+                animation:animate 5555ms ease-in 0ms forwards;
+            }
+        }
+        @keyframes animate { 
+            100%{stroke-opacity: 0; fill-opacity: 0.5;stroke-dashoffset:0}
+                60%{stroke-opacity: 0; fill-opacity: 0.7}
+                38%{fill-opacity: 0}
+                25%{stroke-opacity: 0.5; fill-opacity: 0}
+        }
+    } 
+    form {
+        label {
+            color: $login-text-color;
+        }
+        .credentials {
+            input {
+                border: 2px solid $login-border-color;
+                &[type="email"] {
+                    border-top-left-radius: 8px;
+                    border-top-right-radius: 8px;
+                    border-bottom-width: 1px;
+                    background-color: rgba(0, 0, 0, 0.2);
+                }
+                &[type="password"] {
+                    border-bottom-left-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    border-top-width: 1px;
+                    background-color: rgba(0, 0, 0, 0.2);
+                }
+            }
+            i {
+                color: $login-text-color;
+            }
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        .left{
+            height: 150px;
+        }
+        .right{
+            margin-top: 50px;
+            background: transparent;
+            color: $gray-lighter;
+            height: auto;
+        }
+        .logo {
+            svg {
+                width: auto;
+                height: 80px;
+            }
+        }
+    }
+}

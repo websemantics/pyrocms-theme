@@ -1,0 +1,53 @@
+//
+// Github skin variables
+//
+/*  control variables */
+$show-navbar: true;
+
+/* pyrocms | bootstrap variables */
+$border-radius: 4px;
+$body-bg: $white;
+$brand-primary: #D26911;
+$gray-dark: #353535;
+$gray: #3f3f41;
+$gray-light: #929292;
+$gray-lighter: #e0e0e0;
+$gray-lightest: #f9f9f9;
+
+/* brand variables */
+$brand-bg: $gray-lightest;
+$brand-logo-color: $gray;
+$brand-logo-opacity: 1;
+$brand-height: 72px;
+$brand-logo-height: 30px;
+$brand-logo-margin: 17px 0 0 0;
+
+/* navbar variables */
+$nav-bg: $gray-lightest;
+$nav-height: 72px;
+
+/* menu variables */
+$menu-text-color: $gray;
+
+/* toggle button variables */
+$toggle-text-color: $gray;
+$toggle-bg: $gray-lightest;
+$toggle-hover-text-color: $brand-primary;
+
+/* sidebar variables */
+$sidebar-bg: $white;
+$sidebar-icon-padding: 0 10px 0 0;
+$sidebar-tree-color: $gray;
+$sidebar-text-indent: 12px;
+
+/* login page variables */
+$login-bg-color: $gray-dark;
+
+/* footer variables */
+$footer-bg: $white;
+$footer-logo-color: $gray-light;
+
+/* card variables */
+$card-shadow: none;
+$card-border: 1px solid $gray-lighter;
+$card-affix-bg: $gray-lightest;

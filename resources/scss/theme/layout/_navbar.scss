@@ -1,0 +1,32 @@
+#navbar {
+    background: lighten($nav-bg, 4%);
+    & > .btn.toggle {
+        display: none;
+    }
+}
+body:not(.pyrocms) {
+    #navbar {
+        height: $nav-height;
+        background: $nav-bg;
+        @if (not $show-navbar) {
+            display:none;
+        }   
+        & > .btn.toggle {
+                display: inline-block;
+                background-color: $nav-bg;
+                i.fa:before {
+                    content: "\f0c9";
+                }
+        }
+    }
+    #navigation {
+        display: none;
+    }
+    
+    @include media-breakpoint-down(sm) {
+        #navbar {
+            height: $nav-mobile-height;
+        }
+    }
+}
+

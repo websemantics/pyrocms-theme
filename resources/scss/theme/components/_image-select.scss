@@ -1,0 +1,12 @@
+.c-inputs-stacked {
+    .c-radio {
+        .c-image {
+            display: block;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        input:checked ~ .c-image {
+            box-shadow: 0 0 0 .075rem #ffffff, 0 0 0 .2rem #0074d9;
+        }
+    }
+}

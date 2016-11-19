@@ -1,0 +1,5 @@
+body:not(.pyrocms) {
+    .modal-content {
+        border-radius: $border-radius;
+    }
+}

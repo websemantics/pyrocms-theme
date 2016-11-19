@@ -1,0 +1,34 @@
+body:not(.pyrocms) {
+    ul.tree {
+        li {
+            .card {
+                margin: 0 0 9px 0;
+                padding: 0 5px 0 0;
+                border: $card-border;
+                box-shadow: $card-shadow;
+                border-radius: $border-radius;
+                .handle {
+                    cursor: move;
+                    line-height: 0.7;
+                    padding: 12px;
+                    border: 0;
+                    border-radius: 0;
+                    color: $gray-light;
+                    &:before {
+                        content: "\f047";
+                    }
+                    &:hover {
+                        color: darken($gray-light, 10);
+                        background: darken($gray-lighter, 10);
+                    }
+                }
+                .buttons {
+                    margin-top: 3px;
+                }
+            }
+            &.placeholder {
+                height: 36px;
+            }
+        }
+    }
+}

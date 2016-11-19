@@ -1,0 +1,50 @@
+<ul class="nav">
+    <li class="dropdown">
+        <a href="#" data-toggle="dropdown">
+            <i class="fa fa-user"></i><span class="sm-txt">{{ user().display_name }}</span>
+        </a>
+        <div class="dropdown-menu">
+            <div class="arrow"></div>
+            <div class="media">
+                <a class="media-left pull-left" href="#">
+                    <img class="media-object" src="https://gravatar.com/avatar/{{ md5(user().email) }}">
+                </a>
+                <div class="media-body">
+                    <div class="media-heading">{{ user().display_name }}</div>
+                    <div class="email">{{ user().email }}</div>
+                </div>
+            </div>
+        </div>
+    </li>
+    {% for link in template.cp.navigation %}
+        <li class="{{ link.active ? ' active' }}">
+        <a href="{{ link.href }}">{{icon(addon(link.slug).icon)}} <span>{{trans(addon(link.slug).title)|raw}}</span>
+            {% if link.slug == 'websemantics.module.notification' and unread_count > 0 %}
+            <span class="pull-right-container">
+                <span class="label label-warning pull-right">{{ unread_count }}</span>
+            </span>
+            {% endif %}
+        </a>
+        {% if link.active and count(template.cp.sections.root()) > 1 %}
+            <ul class="subnav">
+            {% for section in template.cp.sections.root() %}
+                <li class="{{ section.highlighted ? 'active' }} {{ section.class }}">
+                    <a {{ html_attributes(section.attributes) }}>
+                        {{ section.icon ? icon(section.icon)|raw }}
+                        {{ trans(section.title)|raw }}
+                    </a>
+                </li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+        </li>
+    {% endfor %}
+</ul>
+<ul class="nav">
+    <li>
+        <a href="{{ url('/') }}" class="nav-item" target="_blank"><i class="fa fa-eye"></i> {{ trans('theme::control_panel.view_site') }}</a>
+    </li>
+    <li>
+        <a href="{{ url('admin/logout') }}" class="nav-item"><i class="fa fa-sign-out"></i> {{ trans('theme::control_panel.logout') }}</a>
+    </li>
+</ul>

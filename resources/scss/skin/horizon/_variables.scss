@@ -1,0 +1,52 @@
+//
+// Horizon skin variables
+//
+
+/*  control variables */
+$show-navbar: true;
+
+/* pyrocms | bootstrap variables */
+$brand-primary: #34495e;
+$body-bg: $white;
+
+/* navbar variables */
+$nav-bg: darken($brand-primary, 5);
+
+/* sidebar variables */
+$sidebar-width: 250px;
+$sidebar-icon-font-size: 120%;
+$sidebar-icon-padding: 0 10px 0 0;
+
+/* brand variables */
+$brand-bg: darken($brand-primary, 5);
+$brand-logo-color: $white;
+$brand-logo-opacity: 1;
+$brand-height: 71px;
+$brand-logo-margin: 8px 0 0 0;
+
+/* navbar variables */
+$nav-height: 71px;
+
+/* menu variables */
+$menu-text-color: $white;
+$menu-dropdown-bg: #ECF0F1;
+
+/* toggle button variables */
+$toggle-text-color: $white;
+$toggle-hover-text-color: $toggle-text-color;
+
+/* sidebar variables */
+$sidebar-bg: #ECF0F1;
+$sidebar-icon-color: $brand-primary;
+$sidebar-text-color: $brand-primary;
+$sidebar-icon-padding: 0 10px 0 0;
+$sidebar-active-bg: $white;
+$sidebar-active-text-color: $brand-primary;
+$sidebar-sub-active-text-color: $brand-primary;
+
+/* cad variables */
+$card-shadow: none;
+$card-border: 1px solid $gray-lighter;
+
+/* footer variables */
+$footer-bg: $body-bg;
