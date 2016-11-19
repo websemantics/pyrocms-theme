@@ -59,7 +59,7 @@ Skins are located at `resources/scss/skin` and the theme main style files can be
 
 ```
 MORE DETAILS BE ADDED LATER
-``
+```
 
 ## Control Layout
 
@@ -71,7 +71,7 @@ When building a skin, you can decide on whether you want to have a navbar or not
 
 ```
 MORE DETAILS BE ADDED LATER
-``
+```
 
 ## Support
 
