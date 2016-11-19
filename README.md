@@ -56,12 +56,12 @@ To change the current skin, head over to `setting` then `themes`. A list of the 
 
 Great news! While enjoying many of the skins provided in this theme you can still go back to the official PyroCMS 3 admin theme without having to actually switch themes; just follow the instructions from the previous section.
 
-There has been few enhancements made to the official theme including,
+There has been few enhancements made to the official theme including:
 
-1- Retina display support for the brand logo using SVG images,
-2- Enhanced user experience provided as an animation for the modules push menu (slowly opens/closes),
-3- Support for Image Select, a way to present images with the radio mode of the field type select,
-4- Brand new login page with some sexy animation, 
+- Retina display support for the brand logo using SVG images
+- Enhanced user experience provided as an animation for the modules push menu (slowly opens/closes)
+- Support for Image Select, a way to present images with the radio mode of the field type select
+- Brand new login page with some sexy animation
 
 ## How to Create a Skin
 
