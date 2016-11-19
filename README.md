@@ -3,7 +3,7 @@
 
 ## Default Layout
 
-The screenshot below shows the default theme skin features a sidebar, one of many layout options provided with this theme. 
+Screenshot below shows the default theme skin features a sidebar, one of many layout options provided with this theme. 
 
 ![Pyrocms Theme Default](https://websemantics.github.io/pyrocms-theme/assets/skin/default.png)
 
