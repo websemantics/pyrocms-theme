@@ -29,6 +29,8 @@ This project builds on the great work done on the [offical PyroCMS theme](https:
 
 Special care has been taken to make this theme work on desktop and mobile devices with a number of layout options. The theme comes with a dozen of skins to demonstrate how it works and the options available for customization.
 
+Every single line of code or style was carefully placed to perform a function or improve overall user experience. The style rules were streamlined and organized in an easy to follow fashion making this theme easy to understand and extremely straightforward to extend and customize. A number of skins have been built to demonstrate how to customize and style this theme for your ultimate satisfaction.
+
 ## Skins
 
 This theme was designed to enable drastic changes to the style, layout and user experience with minimal effort on the behalf of the developer using theme variables. 
