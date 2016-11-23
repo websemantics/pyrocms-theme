@@ -85,7 +85,9 @@ MORE DETAILS BE ADDED LATER
 
 ## Support
 
-Please star :star: this repository to show support. You can also [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/websemanticsca) if you find this project useful and to sustain further theme development including creating new skins. 
+Star :star: this repository if you find this project useful, to show support or simply, for being awesome :)
+
+You can also [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/websemanticsca).
 
 Need help or have a question? post at [StackOverflow](https://stackoverflow.com/questions/tagged/pyrocms-theme websemantics).
 
@@ -93,7 +95,7 @@ Need help or have a question? post at [StackOverflow](https://stackoverflow.com/
 
 ## Contribution
 
-Contributions to this project is accepted in the form of feedback, bugs reports and even better - pull requests :)
+Contributions to this project are accepted in the form of feedback, bugs reports and even better - pull requests.
 
 ## Resources
 
