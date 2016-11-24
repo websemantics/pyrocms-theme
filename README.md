@@ -83,7 +83,7 @@ When building a skin, you can decide on whether you want to have a navbar or not
 MORE DETAILS BE ADDED LATER
 ```
 
-## Ideas
+## Inspirations
 
 Future expansions for the theme,
 
