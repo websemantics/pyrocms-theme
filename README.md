@@ -83,6 +83,14 @@ When building a skin, you can decide on whether you want to have a navbar or not
 MORE DETAILS BE ADDED LATER
 ```
 
+## Ideas
+
+Future expansions for the theme,
+
+- [Multi-Level Accordion Menu](https://codyhouse.co/demo/multi-level-accordion-menu/animated.html).
+- [Animated Page Transition](https://codyhouse.co/demo/animated-page-transition-2/index.html).
+- [Responsive Sidebar Navigation](https://codyhouse.co/demo/responsive-sidebar-navigation/index.html#0).
+
 ## Support
 
 Star :star: this repository if you find this project useful, to show support or simply, for being awesome :)
