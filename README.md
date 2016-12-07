@@ -3,12 +3,12 @@
 
 ## Features
 
-- Skinnable and easy customize and style
+- Easy to style (see [Skins](#skins))
 - Comes with 6 Skins out-of-the-box
-- Supports the official ]PyroCMS theme](https://github.com/pyrocms/pyrocms-theme)
-- Sort and exclude modules from the navigation menu (Sidebar)
-- Different layout support (with / without top Navbar)
-- New login page
+- Supports the official [PyroCMS theme](https://github.com/pyrocms/pyrocms-theme)
+- Allows to `sort` and `exclude` modules from the navigation menu (Sidebar)
+- Supports different layouts (with / without top Navbar)
+- Comes with new login page
 
 ## Default Layout
 
@@ -86,7 +86,7 @@ When building a skin, you can decide on whether you want to have a navbar or not
 
 ## Sidebar
 
-This theme allows to  `sort` and `exclude` modules from the Sidebar. You can sort modules in the Sidebar via the `sidebar` config variable @ `resources/config/config`. Simply, list the modules' slugs in the `sort` array, for example,
+This theme allows to `sort` and `exclude` modules from the Sidebar. You can sort modules in the Sidebar via the `sidebar` config variable @ `resources/config/config.php`. Simply, list the modules' slugs in the `sort` array, for example,
 
 ```php
   'sidebar' => [
