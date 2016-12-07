@@ -19,6 +19,7 @@
     {% for link in template.cp.navigation %}
         <li class="{{ link.active ? ' active' }}">
         <a href="{{ link.href }}">{{icon(addon(link.slug).icon)}} <span>{{trans(addon(link.slug).title)|raw}}</span>
+            {# Hidden Gem, comming soon #}
             {% if link.slug == 'websemantics.module.notification' and unread_count > 0 %}
             <span class="pull-right-container">
                 <span class="label label-warning pull-right">{{ unread_count }}</span>
