@@ -78,13 +78,13 @@ Check skins at `resources/scss/skin` and the theme main style files at, `resourc
 
 ## Control Layout
 
-This theme comes with few very powerful features that were aimed to change the skin layout using sass variables,
+This theme comes with few very powerful features that were aimed to change the skin layout using `sass` and theme configuration variables,
 
-1- Show Navbar
+### Show Navbar
 
 When building a skin, you can decide on whether you want to have a navbar or not. Turning this feature on / off will show the navbar with an attached toggle button to show/hide the sidebar and the classic menu, other navbar items. Also, some sidebar links will be removed, for example, View Site, Logout etc as will be provided by the navbar,
 
-## Sidebar
+### Sidebar
 
 This theme allows to `sort` and `exclude` modules from the Sidebar. You can sort modules in the Sidebar via the `sidebar` config variable @ `resources/config/config.php`. Simply, list the modules' slugs in the `sort` array, for example,
 
