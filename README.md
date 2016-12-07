@@ -3,13 +3,13 @@
 
 ## Default Layout
 
-Screenshot below shows the default theme skin features a sidebar, one of many layout options provided with this theme. 
+Screenshot below shows the default theme skin features a sidebar, one of many layout options provided with this theme.
 
 ![Pyrocms Theme Default](https://websemantics.github.io/pyrocms-theme/assets/skin/default.png)
 
 ## Install
 
-1- Use `composer ` to install as follows, 
+1- Use `composer ` to install as follows,
 
 ```bash
 composer require websemantics/pyrocms-theme
@@ -23,7 +23,7 @@ ADMIN_THEME=websemantics.theme.pyrocms
 
 You're all set!
 
-## Introduction 
+## Introduction
 
 This project builds on the great work done on the [offical PyroCMS theme](https://github.com/pyrocms/pyrocms-theme) to keep the theme lean and guarantee that, all of PyroCMS official admin theme default styles are supported out-of-the-box. It actually goes further than that by adding few features to enhance appearance and user experience as described below.
 
@@ -38,17 +38,17 @@ Every single line of code or style was carefully placed to perform a function or
 
 ## Skins
 
-This theme was designed to enable drastic changes to the style, layout and user experience with minimal effort on the behalf of the developer using theme variables. 
+This theme was designed to enable drastic changes to the style, layout and user experience with minimal effort on the behalf of the developer using theme variables.
 
 A skin is a light way to redesign and customize the default theme design to suite your needs. The theme comes with a number of skins as you can see below.
 
 | Official | Default | Classic | Navy Blue |
 |---|---|---|---|
-| ![Official Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/pyrocms.png) | ![Default Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/default.png) | ![Classic Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/classic.png)  | ![Navy Blue Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/blue.png)  | 
+| ![Official Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/pyrocms.png) | ![Default Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/default.png) | ![Classic Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/classic.png)  | ![Navy Blue Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/blue.png)  |
 
 | Github | Horizon | Stone | Add yours? |
 |---|---|---|---|
-| ![Github Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/github.png) | ![Horizon Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/horizon.png) | ![Stone Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/stone.png)  | ![Yours Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/nopreview.png)  | 
+| ![Github Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/github.png) | ![Horizon Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/horizon.png) | ![Stone Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/stone.png)  | ![Yours Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/nopreview.png)  |
 
 To change the current skin, head over to `setting` then `themes`. A list of the available themes will be presented with preview pictures. Select your favorite skin and click on save, vola!.
 
@@ -59,29 +59,21 @@ Great news! While enjoying many of the skins provided in this theme you can stil
 There has been few enhancements made to the official theme including:
 
 - Retina display support for the brand logo using SVG images
-- Enhanced user experience provided as an animation for the modules push menu (slowly opens/closes)
-- Support for Image Select, a way to present images with the radio mode of the field type select
-- Brand new login page with some sexy animation
+- Enhanced user experience provided as an animation for the modules `push` menu (slowly opens/closes)
+- Support for Image Select, a way to present images with `select` field type (radio mode)
+- Brand new login page with animated logo
 
 ## How to Create a Skin
 
-Skins are located at `resources/scss/skin` and the theme main style files can be found at, `resources/scss/theme`. 
-
-```
-MORE DETAILS BE ADDED LATER
-```
+Check skins at `resources/scss/skin` and the theme main style files at, `resources/scss/theme`.
 
 ## Control Layout
 
-This theme comes with few very powerful features that were aimed to change the skin layout using sass variables, 
+This theme comes with few very powerful features that were aimed to change the skin layout using sass variables,
 
 1- Show Navbar
 
-When building a skin, you can decide on whether you want to have a navbar or not. Turning this feature on / off will show the navbar with an attached toggle button to show/hide the sidebar and the classic menu, other navbar items. Also, some sidebar links will be removed, for example, View Site, Logout ets as will be provided by the navbar,
-
-```
-MORE DETAILS BE ADDED LATER
-```
+When building a skin, you can decide on whether you want to have a navbar or not. Turning this feature on / off will show the navbar with an attached toggle button to show/hide the sidebar and the classic menu, other navbar items. Also, some sidebar links will be removed, for example, View Site, Logout etc as will be provided by the navbar,
 
 ## Inspirations
 
