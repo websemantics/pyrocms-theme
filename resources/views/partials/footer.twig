@@ -31,7 +31,11 @@
                 {{ icon('question-circle') }} {{  trans('theme::control_panel.help') }}
             </a>
         </li>
+        <li class="skins">
+            <a class="btn btn-info btn-inverse btn-sm" href="{{url('admin/settings/themes/websemantics.theme.pyrocms')}}">
+                <i class="fa fa-tint"></i> {{  trans('theme::control_panel.skins') }}
+            </a>
+        </li>
     </ul>
 </section>
 {% include "pyrocms.theme.pyrocms::partials/help" %}
-
