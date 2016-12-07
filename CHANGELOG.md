@@ -4,6 +4,7 @@
   - Make it easy to change the theme skin with a direct link from the footer.
   - Remove buttons' border for Github skin.
   - Add an optional animated toggle button `hip-toggle`, used by Github skin.
+  - Remove `.btn` elements outline and hide `banner` partial if not official skin.
 1.0.1
   date: 2016-12-06
   changes:

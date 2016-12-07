@@ -1,5 +1,6 @@
 body:not(.pyrocms) {
     .btn {
+        outline: none;
         border-radius: $border-radius;
     }
     .btn-secondary-outline {
