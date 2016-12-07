@@ -112,6 +112,12 @@ For exclusion, listing all undesired modules in the `exclude` config variable. H
 
 Feel free to mix and match between `exclude` and `sort` to achieved the desired look.
 
+### Toggle Button
+
+There are two types of toggle buttons the theme uses to collapse the Sidebar. The default one uses the `toggle` css class and is used by default. A more elaborate button that has animation uses `hip-toggle` class. Check the styles @ `pyrocms-theme/resources/scss/theme/components/_toggle.scss`.
+
+For how to use the Hip Toggle Button with your own skin, check the Github skin implementation.
+
 ## Inspirations
 
 Future expansions for the theme,
