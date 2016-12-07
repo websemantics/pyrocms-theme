@@ -1,0 +1,25 @@
+{% if link and link.slug not in config('websemantics.theme.pyrocms::config.sidebar.exclude') %}
+      {# Future support for exclude by user role: { % for role in user().roles % }{ { role.name } }{ % endfor % } #}
+      <li class="{{ link.active ? ' active' }}">
+      <a href="{{ link.href }}">{{icon(addon(link.slug).icon)}} <span>{{trans(addon(link.slug).title)|raw}}</span>
+          {# Hidden gem, Notification module, comming soon #}
+          {% if link.slug == 'websemantics.module.notification' and unread_count > 0 %}
+          <span class="pull-right-container">
+              <span class="label label-warning pull-right">{{ unread_count }}</span>
+          </span>
+          {% endif %}
+      </a>
+      {% if link.active and count(template.cp.sections.root()) > 1 %}
+          <ul class="subnav">
+          {% for section in template.cp.sections.root() %}
+              <li class="{{ section.highlighted ? 'active' }} {{ section.class }}">
+                  <a {{ html_attributes(section.attributes) }}>
+                      {{ section.icon ? icon(section.icon)|raw }}
+                      {{ trans(section.title)|raw }}
+                  </a>
+              </li>
+          {% endfor %}
+          </ul>
+      {% endif %}
+      </li>
+{% endif %}

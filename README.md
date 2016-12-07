@@ -75,6 +75,34 @@ This theme comes with few very powerful features that were aimed to change the s
 
 When building a skin, you can decide on whether you want to have a navbar or not. Turning this feature on / off will show the navbar with an attached toggle button to show/hide the sidebar and the classic menu, other navbar items. Also, some sidebar links will be removed, for example, View Site, Logout etc as will be provided by the navbar,
 
+## Sidebar
+
+This theme allows to  `sort` and `exclude` modules from the Sidebar. You can sort modules in the Sidebar via the `sidebar` config variable @ `resources/config/config`. Simply, list the modules' slugs in the `sort` array, for example,
+
+```php
+  'sidebar' => [
+    'sort' => [
+      'anomaly.module.posts',
+      'anomaly.module.pages'
+    ]
+  ]
+```
+
+This will show the `Posts` module in top of the sidebar list followed by the `pages` module. The remaining modules will be listed as per the default control panel navigation behaviour.
+
+For exclusion, listing all undesired modules in the `exclude` config variable. Here's an example,
+
+```php
+  'sidebar' => [
+    'exclude' => [
+      'anomaly.module.addons',
+      'anomaly.module.variables'
+    ]
+  ]
+```
+
+Feel free to mix and match between `exclude` and `sort` to achieved the desired look.
+
 ## Inspirations
 
 Future expansions for the theme,

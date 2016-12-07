@@ -10,7 +10,7 @@ return [
   | A list of all the avilable skins
   |
   */
-  
+
   'skins' => env('PYROCMS_SKINS', [
           'pyrocms' => [
               'name' => 'Offical PyroCMS',
@@ -57,7 +57,7 @@ return [
   | Select from a collection of skins, 'pyrocms', 'default' with a sidebar, blue etc.
   |
   */
-  
+
   'skin' => env('PYROCMS_SKIN', 'default'),
 
   /*
@@ -65,11 +65,11 @@ return [
   | Thumbnail width
   |--------------------------------------------------------------------------
   |
-  | Skin preview thumbnail width. 
+  | Skin preview thumbnail width.
   | Recommended original preview size, width = 1920px, height = 1080px.
   |
   */
-  
+
   'thumb_width' => env('PYROCMS_THUMB_WIDTH', 400),
 
   /*
@@ -80,7 +80,35 @@ return [
   | Support for Retina display
   |
   */
-  
+
   'retina' => env('PYROCMS_RETINA', true),
 
+  /*
+  |--------------------------------------------------------------------------
+  | Sidebar settings
+  |--------------------------------------------------------------------------
+  |
+  | - Exclude: list of modules to exlecude from sidebar, for example,
+  |
+  |  'exclude' => [
+  |    'anomaly.module.dashboard'
+  |  ]
+  |
+  | - Sort: list of modules in order to be lised in sidebar, for example
+  |
+  |  'sort' => [
+  |    'anomaly.module.posts',
+  |    'anomaly.module.pages'
+  |  ]
+  |
+  |  All module not in this list will be listed as per default cp behaviour.
+  |  Also, you can combine 'sort' and 'exclude' to obtain the desired look.
+  */
+
+  'sidebar' => [
+    'exclude' => [
+    ],
+    'sort' => [
+    ]
+  ]
 ];

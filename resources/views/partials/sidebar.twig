@@ -16,30 +16,14 @@
             </div>
         </div>
     </li>
-    {% for link in template.cp.navigation %}
-        <li class="{{ link.active ? ' active' }}">
-        <a href="{{ link.href }}">{{icon(addon(link.slug).icon)}} <span>{{trans(addon(link.slug).title)|raw}}</span>
-            {# Hidden Gem, comming soon #}
-            {% if link.slug == 'websemantics.module.notification' and unread_count > 0 %}
-            <span class="pull-right-container">
-                <span class="label label-warning pull-right">{{ unread_count }}</span>
-            </span>
-            {% endif %}
-        </a>
-        {% if link.active and count(template.cp.sections.root()) > 1 %}
-            <ul class="subnav">
-            {% for section in template.cp.sections.root() %}
-                <li class="{{ section.highlighted ? 'active' }} {{ section.class }}">
-                    <a {{ html_attributes(section.attributes) }}>
-                        {{ section.icon ? icon(section.icon)|raw }}
-                        {{ trans(section.title)|raw }}
-                    </a>
-                </li>
-            {% endfor %}
-            </ul>
-        {% endif %}
-        </li>
-    {% endfor %}
+{% for link_slug in config('websemantics.theme.pyrocms::config.sidebar.sort') %}
+  {% include "theme::partials/link" with {link: template.cp.navigation.get(link_slug)} %}
+{% endfor %}
+{% for link in template.cp.navigation %}
+  {% if link.slug not in config('websemantics.theme.pyrocms::config.sidebar.sort') %}
+    {% include "theme::partials/link" %}
+  {% endif %}
+{% endfor %}
 </ul>
 <ul class="nav">
     <li>
