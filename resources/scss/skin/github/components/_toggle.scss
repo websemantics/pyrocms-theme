@@ -1,0 +1,8 @@
+body:not(.pyrocms) {
+  #navbar > .btn.toggle {
+    display: none;
+  }
+  & .btn.hip-toggle {
+    display: block;
+  }
+}

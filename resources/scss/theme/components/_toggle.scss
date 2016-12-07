@@ -1,5 +1,6 @@
 body:not(.pyrocms) {
-    .btn.toggle {
+  .btn {
+    &.toggle {
         margin: 0;
         height: 100%;
         border-radius: 0;
@@ -16,4 +17,109 @@ body:not(.pyrocms) {
             background-color: #000;
         }
     }
+    &.hip-toggle {
+      left: 8px;
+      top: 19px;
+      width: 32px;
+      height: 32px;
+      position: fixed;
+      z-index: 9999999;
+      padding: 0;
+      display: none;
+      outline: none;
+      border: none;
+      background: none;
+      -moz-transition: 1s all cubic-bezier(0.2, 1, 0.3, 1), 0s height;
+      -o-transition: 1s all cubic-bezier(0.2, 1, 0.3, 1), 0s height;
+      -webkit-transition: 1s all cubic-bezier(0.2, 1, 0.3, 1), 0s height;
+      transition: 1s all cubic-bezier(0.2, 1, 0.3, 1), 0s height;
+      transition-property: transform;
+      span {
+        position: relative;
+        display: block;
+        margin: auto;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        &, &:after, &:before {
+          width: 24px;
+          height: 4px;
+          background-color: $toggle-text-color;
+          backface-visibility: hidden;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          border-radius: 2px;
+        }
+        &:after, &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: -8px;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          -moz-transform-origin: 1.71429px center;
+          -ms-transform-origin: 1.71429px center;
+          -o-transform-origin: 1.71429px center;
+          -webkit-transform-origin: 1.71429px center;
+          transform-origin: 1.71429px center;
+          -moz-transform-origin: 1.71429px center;
+          -ms-transform-origin: 1.71429px center;
+          -o-transform-origin: 1.71429px center;
+          -webkit-transform-origin: 1.71429px center;
+          transform-origin: 1.71429px center;
+        }
+        &:after {
+          top: 8px;
+        }
+      }
+    }
+  }
+
+  &.pushing {
+    .btn.hip-toggle {
+      left: 0px;
+      -moz-transform: translateX(299px);
+      -ms-transform: translateX(299px);
+      -o-transform: translateX(299px);
+      -webkit-transform: translateX(299px);
+      transform: translateX(299px);
+      span {
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        &:before, &:after {
+          top: 0;
+          width: 15px;
+        }
+        &:before {
+          -webkit-transform: rotate3d(0, 0, 1, -40deg);
+          transform: rotate3d(0, 0, 1, -40deg);
+        }
+        &:after {
+          -webkit-transform: rotate3d(0, 0, 1, 40deg);
+          transform: rotate3d(0, 0, 1, 40deg);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 479px) {
+    &.pushing .btn.hip-toggle{
+      -moz-transform: translateX(249px);
+      -ms-transform: translateX(249px);
+      -o-transform: translateX(249px);
+      -webkit-transform: translateX(249px);
+      transform: translateX(249px);
+    }
+  }
 }

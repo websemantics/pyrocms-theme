@@ -2,6 +2,8 @@
   date: 2016-12-07
   changes:
   - Make it easy to change the theme skin with a direct link from the footer.
+  - Remove buttons' border for Github skin.
+  - Add an optional animated toggle button `hip-toggle`, used by Github skin.
 1.0.1
   date: 2016-12-06
   changes:
