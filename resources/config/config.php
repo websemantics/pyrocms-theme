@@ -94,7 +94,7 @@ return [
   |    'anomaly.module.dashboard'
   |  ]
   |
-  | - Sort: list of modules in order to be lised in sidebar, for example
+  | - Sort: list of modules in order to be listed in sidebar, for example
   |
   |  'sort' => [
   |    'anomaly.module.posts',
