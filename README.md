@@ -126,7 +126,7 @@ Feel free to mix and match between `exclude` and `sort` to achieved the desired 
 
 There are two types of toggle buttons the theme uses to collapse the Sidebar. The default one uses the `toggle` css class and is used by default. A more elaborate button that has animation uses `hip-toggle` class. Check the styles @ `pyrocms-theme/resources/scss/theme/components/_toggle.scss`.
 
-For how to use the Hip Toggle Button with your own skin, check the Github skin implementation.
+For how to use the Hip Toggle Button with your own skin, check the `Github` skin implementation. More docs to come for better usage.
 
 ## Inspirations
 
