@@ -1,20 +1,27 @@
 ![Web Semantics, Inc. PyroCMS 3 Admin Theme](https://websemantics.github.io/pyrocms-theme/assets/img/pyrocms.svg)
 > Hand crafted, multi-skinned, responsive and easily customizable PyroCMS 3 admin theme built for a much refined and intuitive user experience. An absolute labor of love to make possible ultimate control over style and layout. Welcome to a new way to build PyroCMS 3 admin themes.
 
+## Introduction
+
+The idea of this project is to build all the style components and layout scaffoldings of a great Admin theme once to eliminate any urges of re-inventing the wheel. The theme allows for a light approach to customize core styles to suit different requirements through the concept of [Skins](#skins).
+
+This projects hopes to build a catalog of Admin UI styles and layouts that the community can use and share. Pull requests for new skins are encouraged and will be accepted. Contributions to the original author of all new skins is evident as described in [How to Create a Skin](#how-to-create-a-skin) section.
+
+Every single line of code or style was carefully placed to perform a function or improve overall user experience. Special care has been taken to make this theme work on desktop and mobile devices with a number of layout options. The theme comes with a dozen of [Skins](#skins) to demonstrate how it works and the options available for customization.
+
+| ![Github Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/github.png) |
+|---|
+
+The previous screenshot shows the Github skin, nice & clean, exactly how UI is meant to be!
+
 ## Features
 
 - Easy to style (see [Skins](#skins))
 - Comes with 6 Skins out-of-the-box
 - Supports the official [PyroCMS theme](https://github.com/pyrocms/pyrocms-theme)
 - Allows to `sort` and `exclude` modules from the navigation menu (Sidebar)
-- Supports different layouts (with / without top Navbar)
+- Supports different layouts (for example, with / without top Navbar)
 - Comes with new login page
-
-## Default Layout
-
-Screenshot below shows the default theme skin features a sidebar, one of many layout options provided with this theme.
-
-![Pyrocms Theme Default](https://websemantics.github.io/pyrocms-theme/assets/skin/default.png)
 
 ## Install
 
@@ -32,22 +39,13 @@ ADMIN_THEME=websemantics.theme.pyrocms
 
 You're all set!
 
-## Introduction
-
-This project builds on the great work done on the [offical PyroCMS theme](https://github.com/pyrocms/pyrocms-theme) to keep the theme lean and guarantee that, all of PyroCMS official admin theme default styles are supported out-of-the-box. It actually goes further than that by adding few features to enhance appearance and user experience as described below.
-
-Special care has been taken to make this theme work on desktop and mobile devices with a number of layout options. The theme comes with a dozen of skins to demonstrate how it works and the options available for customization.
-
-| ![Github Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/github.png) |
-|---|
-
-The previous screenshot shows the Github skin, nice & clean, exactly how UI is meant to be.
-
-Every single line of code or style was carefully placed to perform a function or improve overall user experience. The style rules were streamlined and organized in an easy to follow fashion making this theme easy to understand and extremely straightforward to extend and customize. A number of skins have been built to demonstrate how to customize and style this theme for your ultimate satisfaction.
-
 ## Skins
 
 This theme was designed to enable drastic changes to the style, layout and user experience with minimal effort on the behalf of the developer using theme variables.
+
+![Pyrocms Theme Default](https://websemantics.github.io/pyrocms-theme/assets/skin/default.png)
+
+Screenshot above shows the default theme skin features a sidebar, one of many layout options provided with this theme.
 
 A skin is a light way to redesign and customize the default theme design to suite your needs. The theme comes with a number of skins as you can see below.
 
@@ -59,22 +57,34 @@ A skin is a light way to redesign and customize the default theme design to suit
 |---|---|---|---|
 | ![Github Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/github.png) | ![Horizon Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/horizon.png) | ![Stone Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/stone.png)  | ![Yours Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/nopreview.png)  |
 
-To change the current skin, head over to `setting` then `themes`. A list of the available themes will be presented with preview pictures. Select your favorite skin and click on save, vola!.
+To change the current skin, head over to `setting` then `themes` or click on `Theme Settings` button at the footer. A list of the available skins will be presented with preview pictures. Select your favorite skin and click on save, vola!.
 
-#### Official Theme Skin
+### Official Theme Skin
 
-Great news! While enjoying many of the skins provided in this theme you can still go back to the official PyroCMS 3 admin theme without having to actually switch themes; just follow the instructions from the previous section.
-
-There has been few enhancements made to the official theme including:
+While enjoying many of the skins provided in this theme you can still go back to the official PyroCMS 3 admin theme without having to actually switch themes. This project decided to build on the great work done on the [official PyroCMS theme](https://github.com/pyrocms/pyrocms-theme) to keep the theme lean and guarantee that all of PyroCMS official Admin theme default styles are supported out-of-the-box. It actually goes further than that by adding few features to enhance appearance and user experience as described below,
 
 - Retina display support for the brand logo using SVG images
 - Enhanced user experience provided as an animation for the modules `push` menu (slowly opens/closes)
 - Support for Image Select, a way to present images with `select` field type (radio mode)
 - Brand new login page with animated logo
 
-## How to Create a Skin
+### How to Create a Skin
 
-Check skins at `resources/scss/skin` and the theme main style files at, `resources/scss/theme`.
+Let's say you want to create a new skin called `sunshine`. There are four steps to accomplish that,
+
+- Create a new folder for the new skin at, `websemantics/pyrocms-theme/resources/scss/skin/sunshine`.
+- Copy the files of an existing skin, for example, `websemantics/pyrocms-theme/resources/scss/skin/blue` to start.
+- Add the skin meta data to the `skins` configuration variable at `websemantics/pyrocms-theme/resources/config/config.php`,
+```
+'sunshine' => [
+    'name' => 'Sunshine',
+    'description' => 'Sunshine is amazing, .. absolutely not, only in winter!!',
+    'author' => 'You, or Your company, Inc.'
+]
+```
+- Optionally, add a preview image (1920 × 1080) for your new skin at `websemantics/pyrocms-theme/docs/assets/skin/sunshine.png`.
+
+You're set! Now, create a pull request when you're done ʕ-̫͡-ʔ
 
 ## Control Layout
 
