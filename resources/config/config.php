@@ -7,7 +7,7 @@ return [
   | Skins
   |--------------------------------------------------------------------------
   |
-  | A list of all the avilable skins
+  | A list of all the available skins
   |
   */
 
@@ -88,13 +88,13 @@ return [
   | Sidebar settings
   |--------------------------------------------------------------------------
   |
-  | - Exclude: list of modules to exlecude from sidebar, for example,
+  | - Exclude: list of modules to exclude from sidebar, for example,
   |
   |  'exclude' => [
   |    'anomaly.module.dashboard'
   |  ]
   |
-  | - Sort: list of modules in order to be lised in sidebar, for example
+  | - Sort: list of modules in order to be listed in sidebar, for example
   |
   |  'sort' => [
   |    'anomaly.module.posts',
