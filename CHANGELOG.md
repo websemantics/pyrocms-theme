@@ -1,7 +1,8 @@
-1.0.3
-  date: 2016-12-07
+1.1.1
+  date: 2016-12-08
   changes:
   - Enable `sort` and `exclude` modules from the Sidebar.
+  - Fix small typos.
 1.0.2
   date: 2016-12-07
   changes:
