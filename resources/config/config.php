@@ -7,7 +7,7 @@ return [
   | Skins
   |--------------------------------------------------------------------------
   |
-  | A list of all the avilable skins
+  | A list of all the available skins
   |
   */
 
