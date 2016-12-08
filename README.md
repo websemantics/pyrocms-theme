@@ -92,7 +92,7 @@ This theme comes with few very powerful features that were aimed to change the s
 
 ### Show Navbar
 
-When building a skin, you can decide on whether you want to have a navbar or not. Turning this feature on / off will show the navbar with an attached toggle button to show/hide the sidebar and the classic menu, other navbar items. Also, some sidebar links will be removed, for example, View Site, Logout etc as will be provided by the navbar,
+When building a skin, you can decide on whether you want to have a navbar or not. Turning this feature `on` / `off` will show the navbar with an attached toggle button to `show` / `hide` the sidebar and the classic menu, other navbar items. Also, some sidebar links will be removed, for example, `View Site`, `Logout` etc as will be provided by the navbar,
 
 ### Sidebar
 
