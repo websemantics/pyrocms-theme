@@ -1,6 +1,7 @@
 body:not(.pyrocms) {
     #sidebar {
         position: fixed;
+        z-index: 999999;
         height: 100%;
         width: $sidebar-width;
         overflow-y: auto;
