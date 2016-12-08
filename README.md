@@ -7,7 +7,7 @@ The idea of this project is to build all the style components and layout scaffol
 
 This projects hopes to build a catalog of Admin UI styles and layouts that the community can use and share. Pull requests for new skins are encouraged and will be accepted. Contributions to the original author of all new skins is evident as described in [How to Create a Skin](#how-to-create-a-skin) section.
 
-Every single line of code or style was carefully placed to perform a function or improve overall user experience. Special care has been taken to make this theme work on desktop and mobile devices with a number of layout options. The theme comes with a dozen of [Skins](#skins) to demonstrate how it works and the options available for customization.
+Every single line of code or style while writing this theme was carefully placed to perform a function or improve overall user experience. Special care has been taken to make this theme work on desktop and mobile devices with a number of layout options. The theme comes with a dozen of [Skins](#skins) to demonstrate how it works and the options available for customization.
 
 | ![Github Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/github.png) |
 |---|
