@@ -88,7 +88,7 @@ return [
   | Sidebar settings
   |--------------------------------------------------------------------------
   |
-  | - Exclude: list of modules to exlecude from sidebar, for example,
+  | - Exclude: list of modules to exclude from sidebar, for example,
   |
   |  'exclude' => [
   |    'anomaly.module.dashboard'
