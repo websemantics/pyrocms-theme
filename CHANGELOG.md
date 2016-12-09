@@ -1,3 +1,7 @@
+1.1.2
+  date: 2016-12-09
+  changes:
+  - Fixes issue #9.
 1.1.1
   date: 2016-12-08
   changes:
