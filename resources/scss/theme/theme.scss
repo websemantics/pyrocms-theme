@@ -4,7 +4,7 @@
 
 @import "variables";
 @import "../bootstrap/bootstrap";
-@import '{{ asset_path("pyrocms.theme.pyrocms::scss/theme/theme.scss") }}';
+@import "{{ asset_path('pyrocms.theme.pyrocms::scss/theme/theme.scss') }}";
 @import "components/scaffolding";
 @import "components/cards";
 @import "components/trees";
