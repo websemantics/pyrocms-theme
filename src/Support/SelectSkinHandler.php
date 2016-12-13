@@ -1,6 +1,7 @@
 <?php namespace Websemantics\PyrocmsTheme\Support;
 
 use Anomaly\SelectFieldType\SelectFieldType;
+use Anomaly\Streams\Platform\Addon\AddonCollection;
 
 /**
  * Class SelectSkinHandler
@@ -17,11 +18,12 @@ class SelectSkinHandler
      * Handle the options.
      *
      */
-    public function handle(SelectFieldType $fieldType)
+    public function handle(SelectFieldType $fieldType, AddonCollection $addons)
     {
       $options = [];
-      foreach(config('websemantics.theme.pyrocms::config.skins') as $id => $skin){
-        $options[$id] = $skin['name'];
+
+      foreach($addons->withConfig('skin') as $id => $skin){
+        $options[$skin->getId()] = $skin->getName();
       }
 
       $fieldType->setOptions($options);

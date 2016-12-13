@@ -28,6 +28,13 @@
     },
      "require": {
         "anomaly/settings-module": "~2.1",
-        "pyrocms/pyrocms-theme": "~1.1"
+        "pyrocms/pyrocms-theme": "~1.1",
+        "websemantics/skins-installer": "~1.0.1",
+        "websemantics/plus-skin": "~1.0.1",
+        "websemantics/plus-skin": "~1.0.1",
+        "websemantics/plus-skin": "~1.0.1",
+        "websemantics/plus-skin": "~1.0.1",
+        "websemantics/plus-skin": "~1.0.1",
+        "websemantics/plus-skin": "~1.0.1"
     }
 }

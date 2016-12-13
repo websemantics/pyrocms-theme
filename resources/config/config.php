@@ -4,53 +4,6 @@ return [
 
   /*
   |--------------------------------------------------------------------------
-  | Skins
-  |--------------------------------------------------------------------------
-  |
-  | A list of all the available skins
-  |
-  */
-
-  'skins' => env('PYROCMS_SKINS', [
-          'pyrocms' => [
-              'name' => 'Offical PyroCMS',
-              'description' => 'The official admin theme for PyroCMS, with a twist.',
-              'author' => 'PyroCMS, Inc.'
-          ],
-          'default' => [
-              'name' => 'Default',
-              'description' => 'PyroCMS admin theme with a sidebar.',
-              'author' => 'Web Semantics, Inc.'
-          ],
-          'classic' => [
-              'name' => 'Classic',
-              'description' => 'Default admin theme with a sidebar and a navbar.',
-              'author' => 'Web Semantics, Inc.'
-          ],
-          'stone' => [
-              'name' => 'Stone',
-              'description' => 'A replica of the Stone Theme.',
-              'author' => 'Web Semantics, Inc.'
-          ],
-          'github' => [
-              'name' => 'Github',
-              'description' => 'Github inspired admin theme for PyroCMS.',
-              'author' => 'Web Semantics, Inc.'
-          ],
-          'blue' => [
-              'name' => 'Navy Blue',
-              'description' => 'A blue themed flaviour of PyroCMS admin.',
-              'author' => 'Web Semantics, Inc.'
-          ],
-          'horizon' => [
-              'name' => 'Horizon',
-              'description' => 'Lightly colored skin with an immersed sidebar.',
-              'author' => 'Web Semantics, Inc.'
-          ]
-  ]),
-
-  /*
-  |--------------------------------------------------------------------------
   | Skin
   |--------------------------------------------------------------------------
   |
@@ -58,7 +11,7 @@ return [
   |
   */
 
-  'skin' => env('PYROCMS_SKIN', 'default'),
+  'skin' => env('PYROCMS_SKIN', 'websemantics.skin.github'),
 
   /*
   |--------------------------------------------------------------------------

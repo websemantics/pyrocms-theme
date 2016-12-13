@@ -1,8 +1,8 @@
 1.*.*
   date: 2016-**-**
   changes:
+  - Make `core` folder available for style imports to improve inheritance across themes.
   - Add `gitignore.`
-  -
 1.1.2
     date: 2016-12-09
     changes:

@@ -15,6 +15,15 @@ class PyrocmsThemeServiceProvider extends AddonServiceProvider
 {
 
     /**
+     * The class bindings.
+     *
+     * @var array
+     */
+    protected $bindings = [
+      'Anomaly\Streams\Platform\Asset\Asset' => 'Websemantics\PyrocmsTheme\Streams\Platform\Asset\Asset',
+    ];
+
+    /**
      * The theme routes.
      *
      * @var array

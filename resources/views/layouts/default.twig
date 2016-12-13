@@ -5,7 +5,7 @@
         {% include "theme::partials/metadata" %}
         {% endblock %}
     </head>
-{% if setting_value('websemantics.theme.pyrocms::skin') != 'pyrocms' %}
+{% if setting_value('websemantics.theme.pyrocms::skin') != 'websemantics.skin.pyrocms' %}
     <body class="pushing">
         <main id="main">
             <div id="sidebar">
@@ -29,7 +29,7 @@
                 {% include "pyrocms.theme.pyrocms::partials/messages" %}
             </div>
             {{ block('content') }}
-{% if setting_value('websemantics.theme.pyrocms::skin') != 'pyrocms' %}
+{% if setting_value('websemantics.theme.pyrocms::skin') != 'websemantics.skin.pyrocms' %}
             </div>
             {% include "theme::partials/footer" %}
         </main>

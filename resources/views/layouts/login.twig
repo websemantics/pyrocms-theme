@@ -4,7 +4,7 @@
         {% include "theme::partials/metadata" %}
     </head>
     <body id="login" style="background-image: url({{ image_path(random(config('websemantics.theme.pyrocms::design.backgrounds'))) }})">
-{% if setting_value('websemantics.theme.pyrocms::skin') == 'pyrocms' %}
+{% if setting_value('websemantics.theme.pyrocms::skin') == 'websemantics.skin.pyrocms' %}
 {{ block('content') }}
 {% else %}
         <row>
