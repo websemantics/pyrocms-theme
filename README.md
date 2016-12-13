@@ -42,6 +42,8 @@ Customization can range from changes to the theme variables, adding additional s
 
 ![Plus Skin](https://github.com/websemantics/plus-skin/raw/master/resources/img/plus.png)
 
+### Available Skins
+
 The theme comes with a number of skins as you can see below. Each of these skins come as an addon package that you can require individually or through this theme.
 
 | [Official](https://github.com/websemantics/pyrocms-skin) | [Default](https://github.com/websemantics/plus-skin) |
