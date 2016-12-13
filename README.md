@@ -85,7 +85,7 @@ PYROCMS_SKIN=websemantics.skin.github
 
 Let's say you want to create a new skin called `sunshine`, simply follow these steps,
 
-- Create a new skin addon,
+- Create a new skin addon (requires [Builder extension](github.com/websemantics/builder-extension)),
 
 ```bash
 php artisan make:addon vendor.skin.sunshine
