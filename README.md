@@ -46,7 +46,7 @@ A skin is a light way to redesign and customize the default theme design to suit
 
 | [Classic](https://github.com/websemantics/classic-skin) | [Navy Blue](https://github.com/websemantics/blue-skin) |
 |---|---|
-| ![Classic Skin](https://github.com/websemantics/classic-skin/raw/master/resources/img/classic.png)  ![Navy Blue Skin](https://github.com/websemantics/blue-skin/raw/master/resources/img/blue.png) |
+| ![Classic Skin](https://github.com/websemantics/classic-skin/raw/master/resources/img/classic.png) | ![Navy Blue Skin](https://github.com/websemantics/blue-skin/raw/master/resources/img/blue.png) |
 
 | [Github](https://github.com/websemantics/github-skin) | [Horizon](https://github.com/websemantics/horizon-skin) |
 |---|---|
