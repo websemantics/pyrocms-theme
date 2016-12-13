@@ -95,7 +95,15 @@ php artisan make:addon vendor.skin.sunshine
 
 - Switch to the new skin as described in, [Change Active Skin](#change-active-skin) section.
 
-A skin can also be specified within any addon types including Extensions and Modules. All is required is the skin main config files `name-skin/resources/config/skin.php`, a preview image `name-skin/resources/img/name.png` and the skin main style file, `name-skin/resources/scss/skin.scss`.
+### Embedded Skin
+
+The great thing about skins is that, they don't have to be their own addon package. A skin can also be specified within any addon type including `extensions` and `modules`.
+
+All is required for the theme to find and use a skin is,
+
+- The skin main config files `addon/resources/config/skin.php`,
+- A preview image `addon/resources/img/name.png` and,
+- The skin main style file, `addon/resources/scss/skin.scss`.
 
 Check out the [Plus Skin](https://github.com/websemantics/plus-skin) for details.
 
