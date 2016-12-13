@@ -1,6 +1,10 @@
 ## Change Log
 All notable changes to this project will be documented in this section.
 
+#### [1.2.1] - 2016-12-13
+##### Changed
+  - Remove skins dependencies. Skins must be composer required after the theme.
+
 #### [1.2.0] - 2016-12-13
 ##### Changed
   - Separate `skins` from the theme and into their own addon `composer` packages.

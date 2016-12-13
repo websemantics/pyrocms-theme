@@ -20,16 +20,33 @@ Head over to the [Skins](#skins) section to learn more about how that works and 
 
 ## Install
 
-1- Use `composer ` to install as follows,
+1- Use `composer ` to install the theme as follows,
 
 ```bash
 composer require websemantics/pyrocms-theme
 ```
 
-2- Change value of `ADMIN_THEME` in the project `.env` file,  
+2- Install the theme default skin `plus-skin`,
+
+```bash
+composer require websemantics/plus-skin
+```
+
+3- Change value of `ADMIN_THEME` in the project `.env` file,  
 
 ```
 ADMIN_THEME=websemantics.theme.pyrocms
+```
+
+4- Optionally, install all [available skins](#available-skins),
+
+```
+composer require websemantics/pyrocms-skin
+composer require websemantics/classic-skin
+composer require websemantics/github-skin
+composer require websemantics/stone-skin
+composer require websemantics/blue-skin
+composer require websemantics/horizon-skin
 ```
 
 ## Skins
