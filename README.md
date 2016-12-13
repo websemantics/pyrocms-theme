@@ -3,11 +3,9 @@
 
 ## Introduction
 
-The idea of this project is to build all the style components and layout scaffoldings of a great Admin theme once to eliminate any urges of re-inventing the wheel.
+The idea of this project is to build all the style components and layout scaffoldings of a great Admin theme once to eliminate any urges of re-inventing the wheel. Every single line of code or style while writing this theme was carefully placed to perform a function or improve overall user experience. Special care has been taken to make this theme work on desktop and mobile devices with a number of layout options.
 
-The theme allows for a light approach to customize core styles to suit different requirements through the concept of [Skins](#skins). This projects hopes to build a catalog of Admin UI styles and layouts that the community can use and share.
-
-Every single line of code or style while writing this theme was carefully placed to perform a function or improve overall user experience. Special care has been taken to make this theme work on desktop and mobile devices with a number of layout options. The theme comes with a dozen of [Skins](#skins) to demonstrate how it works and the options available for customization.
+The theme allows for a light approach to customize core styles to suit different requirements through the concept of [Skins](#skins). This projects hopes to build a catalog of Admin UI styles and layouts that the community can use and share. The theme comes with a dozen of [Skins](#skins) to demonstrate how it works and the options available for customization.
 
 ## Features
 
