@@ -5,7 +5,9 @@
 
 The idea of this project is to build an extensible and modular Admin theme with varieties of style components and layout scaffoldings to enable deep customization and maximum code reuse. Every single line of code or style while writing this theme was carefully placed to perform a function or improve overall user experience for desktop and mobile devices.
 
-The theme allows for a light approach to customize core styles to suit different requirements through the concept of [Skins](#skins). This projects hopes to build a catalog of Admin UI styles and layouts that the community can use and share. The theme comes with a dozen of [Skins](#skins) to demonstrate how it works and the options available for customization.
+The theme allows for a lighter approach to customize core styles to suit different requirements through the concept of [Skins](#skins). This projects hopes to build a catalog of Admin UI styles and layouts that the community can use and share.
+
+The theme comes with a dozen of [Skins](#skins) to demonstrate how it works and the options available for customization.
 
 ## Features
 
