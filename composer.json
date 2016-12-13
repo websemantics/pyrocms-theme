@@ -30,12 +30,12 @@
         "anomaly/settings-module": "~2.1",
         "pyrocms/pyrocms-theme": "~1.1",
         "websemantics/skins-installer": "~1.0.1",
-        "websemantics/plus-skin": "~0.1.0",
-        "websemantics/github-skin": "~0.1.0",
-        "websemantics/blue-skin": "~0.1.0",
-        "websemantics/pyrocms-skin": "~0.1.0",
-        "websemantics/classic-skin": "~0.1.0",
-        "websemantics/horizon-skin": "~0.1.0",
-        "websemantics/stone-skin": "~0.1.0"
+        "websemantics/plus-skin": "^0.1.0",
+        "websemantics/github-skin": "^0.1.0",
+        "websemantics/blue-skin": "^0.1.0",
+        "websemantics/pyrocms-skin": "^0.1.0",
+        "websemantics/classic-skin": "^0.1.0",
+        "websemantics/horizon-skin": "^0.1.0",
+        "websemantics/stone-skin": "^0.1.0"
     }
 }
