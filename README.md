@@ -32,9 +32,9 @@ ADMIN_THEME=websemantics.theme.pyrocms
 
 ## Skins
 
-This theme was designed to enable drastic changes to the style, layout and user experience with minimal effort on the behalf of the developer using theme variables via skins.
+This theme was designed to enable drastic changes to the style, layout and user experience with minimal effort on the behalf of the developer.
 
-A skin is a light way to redesign and customize the default theme design to suite your needs.  The `default theme skin`, [Plus Skin](https://github.com/websemantics/plus-skin), shown below, features a sidebar, one of many layout options provided with this theme.
+This is made possible with Skins, a lightway to redesign and customize the default theme styles to suite your needs.  The `default theme skin`, [Plus Skin](https://github.com/websemantics/plus-skin), shown below, features a sidebar, one of many layout options provided with this theme.
 
 ![Plus Skin](https://github.com/websemantics/plus-skin/raw/master/resources/img/plus.png)
 
