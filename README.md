@@ -40,17 +40,20 @@ Screenshot above shows the `default theme skin`, [Plus Skin](https://github.com/
 
 A skin is a light way to redesign and customize the default theme design to suite your needs. The theme comes with a number of skins as you can see below.
 
-| [Official](https://github.com/websemantics/pyrocms-skin) | [Default](https://github.com/websemantics/plus-skin) | [Classic](https://github.com/websemantics/classic-skin) |
-|---|---|---|
-| ![Official Skin](https://github.com/websemantics/pyrocms-skin/raw/master/resources/img/pyrocms.png) | ![Default Skin](https://github.com/websemantics/plus-skin/raw/master/resources/img/plus.png) | ![Classic Skin](https://github.com/websemantics/classic-skin/raw/master/resources/img/classic.png)  |
+| [Official](https://github.com/websemantics/pyrocms-skin) | [Default](https://github.com/websemantics/plus-skin) |
+|---|---|
+| ![Official Skin](https://github.com/websemantics/pyrocms-skin/raw/master/resources/img/pyrocms.png) | ![Default Skin](https://github.com/websemantics/plus-skin/raw/master/resources/img/plus.png) |
 
-| [Navy Blue](https://github.com/websemantics/blue-skin) | [Github](https://github.com/websemantics/github-skin) | [Horizon](https://github.com/websemantics/horizon-skin) |
-|---|---|---|
-| ![Navy Blue Skin](https://github.com/websemantics/blue-skin/raw/master/resources/img/blue.png) | ![Github Skin](https://github.com/websemantics/github-skin/raw/master/resources/img/github.png) | ![Horizon Skin](https://github.com/websemantics/horizon-skin/raw/master/resources/img/horizon.png)  |
+| [Classic](https://github.com/websemantics/classic-skin) | [Navy Blue](https://github.com/websemantics/blue-skin) |
+|---|---|
+| ![Classic Skin](https://github.com/websemantics/classic-skin/raw/master/resources/img/classic.png)  ![Navy Blue Skin](https://github.com/websemantics/blue-skin/raw/master/resources/img/blue.png) |
 
+| [Github](https://github.com/websemantics/github-skin) | [Horizon](https://github.com/websemantics/horizon-skin) |
+|---|---|
+| ![Github Skin](https://github.com/websemantics/github-skin/raw/master/resources/img/github.png) | ![Horizon Skin](https://github.com/websemantics/horizon-skin/raw/master/resources/img/horizon.png)  |
 
 | [Stone](https://github.com/websemantics/stone-skin) | Add yours? | ... |
-|---|---|---|
+|---|---|
 | ![Stone Skin](https://github.com/websemantics/stone-skin/raw/master/resources/img/stone.png) |  ![Yours Skin](https://websemantics.github.io/pyrocms-theme/assets/img/nopreview.png) | ... |
 
 ### Change Active Skin
