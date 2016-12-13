@@ -91,8 +91,6 @@ Let's say you want to create a new skin called `sunshine`, simply follow these s
 php artisan make:addon vendor.skin.sunshine
 ```
 
-The previous command requires [Builder extension](github.com/websemantics/builder-extension) to work.
-
 - Change skin settings from skin config file, `sunshine-skin/resources/config/skin.php`.
 
 - Switch to the [new skin](#change-active-skin).
