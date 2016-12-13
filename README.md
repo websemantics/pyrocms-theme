@@ -52,9 +52,18 @@ A skin is a light way to redesign and customize the default theme design to suit
 |---|---|
 | ![Github Skin](https://github.com/websemantics/github-skin/raw/master/resources/img/github.png) | ![Horizon Skin](https://github.com/websemantics/horizon-skin/raw/master/resources/img/horizon.png)  |
 
-| [Stone](https://github.com/websemantics/stone-skin) | Add yours? |
+| [Stone](https://github.com/websemantics/stone-skin) | Add Yours! |
 |---|---|
 | ![Stone Skin](https://github.com/websemantics/stone-skin/raw/master/resources/img/stone.png) | ![Yours Skin](https://websemantics.github.io/pyrocms-theme/assets/img/nopreview.png) |
+
+### Official Skin
+
+While enjoying many of the skins provided in this theme you can still go back to the official PyroCMS 3 admin theme without having to actually switch themes. This project decided to build on the great work done on the [official PyroCMS theme](https://github.com/pyrocms/pyrocms-theme) to keep the theme lean and guarantee that all of PyroCMS official Admin theme default styles are supported out-of-the-box. It actually goes further than that by adding few features to enhance appearance and user experience as described below,
+
+- Retina display support for the brand logo using SVG images
+- Enhanced user experience provided as an animation for the modules `push` menu (slowly opens/closes)
+- Support for Image Select, a way to present images with `select` field type (radio mode)
+- Brand new login page with animated logo
 
 ### Change Active Skin
 
@@ -66,7 +75,7 @@ You can also set the value of `PYROCMS_SKIN` in the project `.env` to the skin n
 PYROCMS_SKIN=websemantics.skin.github
 ```
 
-### How to Create a Skin
+## How to Create a Skin
 
 Let's say you want to create a new skin called `sunshine`, simply follow these steps,
 
@@ -85,15 +94,6 @@ The previous command requires [Builder extension](github.com/websemantics/builde
 A skin can also be specified within any addon types including Extensions and Modules. All is required is the skin main config files `name-skin/resources/config/skin.php`, a preview image `name-skin/resources/img/name.png` and the skin main style file, `name-skin/resources/scss/skin.scss`.
 
 Check out the [Plus Skin](https://github.com/websemantics/plus-skin) for details.
-
-### Official Skin
-
-While enjoying many of the skins provided in this theme you can still go back to the official PyroCMS 3 admin theme without having to actually switch themes. This project decided to build on the great work done on the [official PyroCMS theme](https://github.com/pyrocms/pyrocms-theme) to keep the theme lean and guarantee that all of PyroCMS official Admin theme default styles are supported out-of-the-box. It actually goes further than that by adding few features to enhance appearance and user experience as described below,
-
-- Retina display support for the brand logo using SVG images
-- Enhanced user experience provided as an animation for the modules `push` menu (slowly opens/closes)
-- Support for Image Select, a way to present images with `select` field type (radio mode)
-- Brand new login page with animated logo
 
 ## Control Layout
 
