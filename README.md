@@ -11,7 +11,7 @@ Head over to the [Skins](#skins) section to learn more about how that works and 
 
 ## Features
 
-- Easy to customizr and style,
+- Easy to customize and style,
 - Comes with 6 Skins out-of-the-box,
 - Supports the official [PyroCMS theme](https://github.com/pyrocms/pyrocms-theme),
 - Allows to `sort` and `exclude` modules from the navigation menu (Sidebar),
@@ -34,7 +34,7 @@ ADMIN_THEME=websemantics.theme.pyrocms
 
 ## Skins
 
-This theme was designed to enable drastic changes to the style, layout and user experience with minimal effort on the behalf of the developer.
+This theme was designed to enable drastic changes to the style, layout and user experience with minimal effort on the behalf of the developer by introducing a new concept, `Skins`.
 
 A skin is a lightway approach to redesign and customize the default theme styles to suite your needs.  The `default theme skin`, [Plus Skin](https://github.com/websemantics/plus-skin), shown below, features a sidebar, one of many layout options provided with this theme. Customization can range from changes to the theme variables, adding additional styles to overriding theme views.
 
