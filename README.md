@@ -163,7 +163,7 @@ Star :star: this repository if you find this project useful, to show support or 
 
 You can also [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/websemanticsca).
 
-Need help or have a question? post at [StackOverflow](https://stackoverflow.com/questions/tagged/pyrocms-theme websemantics).
+Need help or have a question? post at [StackOverflow](https://stackoverflow.com/questions/tagged/pyrocms-theme+websemantics).
 
 *Please don't use the issue trackers for support/questions.*
 
