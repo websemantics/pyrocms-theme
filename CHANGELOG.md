@@ -1,8 +1,11 @@
-1.*.*
-  date: 2016-**-**
+1.2.0
+  date: 2016-12-13
   changes:
+  - Separate `skins` from the theme and into their own addon `composer` packages.
   - Make `core` folder available for style imports to improve inheritance across themes.
+  - Improve docs with details of how to make / use `skins`.
   - Add `gitignore.`
+
 1.1.2
     date: 2016-12-09
     changes:

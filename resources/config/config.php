@@ -7,11 +7,11 @@ return [
   | Skin
   |--------------------------------------------------------------------------
   |
-  | Select from a collection of skins, 'pyrocms', 'default' with a sidebar, blue etc.
+  | Select from a collection of skins, 'pyrocms', 'plus' with a sidebar, 'blue' etc.
   |
   */
 
-  'skin' => env('PYROCMS_SKIN', 'websemantics.skin.github'),
+  'skin' => env('PYROCMS_SKIN', 'websemantics.skin.plus'),
 
   /*
   |--------------------------------------------------------------------------

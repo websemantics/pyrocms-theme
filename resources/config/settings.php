@@ -10,7 +10,7 @@ return [
         'attributes'  => ['data-type' => 'image'],
         'config'      => [
             'mode' => 'radio',
-            'default_value' => 'websemantics.skin.github',
+            'default_value' => 'websemantics.skin.plus',
             'handler' => 'Websemantics\PyrocmsTheme\Support\SelectSkinHandler'
         ],
     ]

@@ -1,27 +1,20 @@
 ![Web Semantics, Inc. PyroCMS 3 Admin Theme](https://websemantics.github.io/pyrocms-theme/assets/img/pyrocms.svg)
-> Hand crafted, multi-skinned, responsive and easily customizable PyroCMS 3 admin theme built for a much refined and intuitive user experience. An absolute labor of love to make possible ultimate control over style and layout. Welcome to a new way to build PyroCMS 3 admin themes.
+> Hand crafted, multi-skinned, responsive and easily customizable PyroCMS 3 admin theme built for a much refined and intuitive user experience. An absolute labor of love to make possible ultimate control over style and layout. Welcome to a new way to build PyroCMS 3 Admin themes.
 
 ## Introduction
 
-The idea of this project is to build all the style components and layout scaffoldings of a great Admin theme once to eliminate any urges of re-inventing the wheel. The theme allows for a light approach to customize core styles to suit different requirements through the concept of [Skins](#skins).
-
-This projects hopes to build a catalog of Admin UI styles and layouts that the community can use and share. Pull requests for new skins are encouraged and will be accepted. Contributions to the original author of all new skins is evident as described in [How to Create a Skin](#how-to-create-a-skin) section.
+The idea of this project is to build all the style components and layout scaffoldings of a great Admin theme once to eliminate any urges of re-inventing the wheel. The theme allows for a light approach to customize core styles to suit different requirements through the concept of [Skins](#skins). This projects hopes to build a catalog of Admin UI styles and layouts that the community can use and share.
 
 Every single line of code or style while writing this theme was carefully placed to perform a function or improve overall user experience. Special care has been taken to make this theme work on desktop and mobile devices with a number of layout options. The theme comes with a dozen of [Skins](#skins) to demonstrate how it works and the options available for customization.
 
-| ![Github Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/github.png) |
-|---|
-
-The previous screenshot shows the Github skin, nice & clean, exactly how UI is meant to be!
-
 ## Features
 
-- Easy to style (see [Skins](#skins))
-- Comes with 6 Skins out-of-the-box
-- Supports the official [PyroCMS theme](https://github.com/pyrocms/pyrocms-theme)
-- Allows to `sort` and `exclude` modules from the navigation menu (Sidebar)
-- Supports different layouts (for example, with / without top Navbar)
-- Comes with new login page
+- Easy to style, see [Skins](#skins),
+- Comes with 6 Skins out-of-the-box,
+- Supports the official [PyroCMS theme](https://github.com/pyrocms/pyrocms-theme),
+- Allows to `sort` and `exclude` modules from the navigation menu (Sidebar),
+- Supports different layouts (for example, with / without top Navbar),
+- Comes with new login page.
 
 ## Install
 
@@ -31,35 +24,66 @@ The previous screenshot shows the Github skin, nice & clean, exactly how UI is m
 composer require websemantics/pyrocms-theme
 ```
 
-2- Change `ADMIN_THEME` in `.env` file,  
+2- Change value of `ADMIN_THEME` in the project `.env` file,  
 
 ```
 ADMIN_THEME=websemantics.theme.pyrocms
 ```
 
-You're all set!
-
 ## Skins
 
 This theme was designed to enable drastic changes to the style, layout and user experience with minimal effort on the behalf of the developer using theme variables.
 
-![Pyrocms Theme Default](https://websemantics.github.io/pyrocms-theme/assets/skin/default.png)
+![Plus Skin](https://github.com/websemantics/plus-skin/raw/master/resources/img/plus.png)
 
-Screenshot above shows the default theme skin features a sidebar, one of many layout options provided with this theme.
+Screenshot above shows the `default theme skin`, [Plus Skin](https://github.com/websemantics/plus-skin), features a sidebar, one of many layout options provided with this theme.
 
 A skin is a light way to redesign and customize the default theme design to suite your needs. The theme comes with a number of skins as you can see below.
 
-| Official | Default | Classic | Navy Blue |
-|---|---|---|---|
-| ![Official Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/pyrocms.png) | ![Default Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/default.png) | ![Classic Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/classic.png)  | ![Navy Blue Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/blue.png)  |
+| [Official](https://github.com/websemantics/pyrocms-skin) | [Default](https://github.com/websemantics/plus-skin) | [Classic](https://github.com/websemantics/classic-skin) |
+|---|---|---|
+| ![Official Skin](https://github.com/websemantics/pyrocms-skin/raw/master/resources/img/pyrocms.png) | ![Default Skin](https://github.com/websemantics/plus-skin/raw/master/resources/img/plus.png) | ![Classic Skin](https://github.com/websemantics/classic-skin/raw/master/resources/img/classic.png)  |
 
-| Github | Horizon | Stone | Add yours? |
-|---|---|---|---|
-| ![Github Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/github.png) | ![Horizon Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/horizon.png) | ![Stone Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/stone.png)  | ![Yours Skin](https://websemantics.github.io/pyrocms-theme/assets/skin/nopreview.png)  |
+| [Navy Blue](https://github.com/websemantics/blue-skin) | [Github](https://github.com/websemantics/github-skin) | [Horizon](https://github.com/websemantics/horizon-skin) |
+|---|---|---|
+| ![Navy Blue Skin](https://github.com/websemantics/blue-skin/raw/master/resources/img/blue.png) | ![Github Skin](https://github.com/websemantics/github-skin/raw/master/resources/img/github.png) | ![Horizon Skin](https://github.com/websemantics/horizon-skin/raw/master/resources/img/horizon.png)  |
 
-To change the current skin, head over to `setting` then `themes` or click on `Theme Settings` button at the footer. A list of the available skins will be presented with preview pictures. Select your favorite skin and click on save, vola!.
 
-### Official Theme Skin
+| [Stone](https://github.com/websemantics/stone-skin) | Add yours? | ... |
+|---|---|---|
+| ![Stone Skin](https://github.com/websemantics/stone-skin/raw/master/resources/img/stone.png) |  ![Yours Skin](https://websemantics.github.io/pyrocms-theme/assets/img/nopreview.png) | ... |
+
+### Change Active Skin
+
+To change the current active skin, head over to `setting` then `themes` or click on `Theme Settings` button at the footer. A list of the available skins will be presented with preview pictures. Select your favorite skin and click save, vola!
+
+You can also set the value of `PYROCMS_SKIN` in the project `.env` to the skin namespace,  
+
+```
+PYROCMS_SKIN=websemantics.skin.github
+```
+
+### How to Create a Skin
+
+Let's say you want to create a new skin called `sunshine`, simply follow these steps,
+
+- Create a new skin addon,
+
+```bash
+php artisan make:addon vendor.skin.sunshine
+```
+
+The previous command requires [Builder extension](github.com/websemantics/builder-extension) to work.
+
+- Change skin settings from skin config file, `sunshine-skin/resources/config/skin.php`.
+
+- Switch to the [new skin](#change-active-skin).
+
+A skin can also be specified within any addon types including Extensions and Modules. All is required is the skin main config files `name-skin/resources/config/skin.php`, a preview image `name-skin/resources/img/name.png` and the skin main style file, `name-skin/resources/scss/skin.scss`.
+
+Check out the [Plus Skin](https://github.com/websemantics/plus-skin) for details.
+
+### Official Skin
 
 While enjoying many of the skins provided in this theme you can still go back to the official PyroCMS 3 admin theme without having to actually switch themes. This project decided to build on the great work done on the [official PyroCMS theme](https://github.com/pyrocms/pyrocms-theme) to keep the theme lean and guarantee that all of PyroCMS official Admin theme default styles are supported out-of-the-box. It actually goes further than that by adding few features to enhance appearance and user experience as described below,
 
@@ -67,24 +91,6 @@ While enjoying many of the skins provided in this theme you can still go back to
 - Enhanced user experience provided as an animation for the modules `push` menu (slowly opens/closes)
 - Support for Image Select, a way to present images with `select` field type (radio mode)
 - Brand new login page with animated logo
-
-### How to Create a Skin
-
-Let's say you want to create a new skin called `sunshine`. There are four steps to accomplish that,
-
-- Create a new folder for the new skin at, `websemantics/pyrocms-theme/resources/scss/skin/sunshine`.
-- Copy the files of an existing skin, for example, `websemantics/pyrocms-theme/resources/scss/skin/blue` to start.
-- Add the skin meta data to the `skins` configuration variable at `websemantics/pyrocms-theme/resources/config/config.php`,
-```
-'sunshine' => [
-    'name' => 'Sunshine',
-    'description' => 'Sunshine is amazing, .. absolutely not, only in winter!!',
-    'author' => 'You, or Your company, Inc.'
-]
-```
-- Optionally, add a preview image (1920 × 1080) for your new skin at `websemantics/pyrocms-theme/docs/assets/skin/sunshine.png`.
-
-You're set! Now, create a pull request when you're done ʕ-̫͡-ʔ
 
 ## Control Layout
 
@@ -153,8 +159,8 @@ Contributions to this project are accepted in the form of feedback, bugs reports
 ## Resources
 
 - [Auto Pyro](https://github.com/websemantics/auto-pyro), PyroCMS deploy tool for faster development experience.
-- [Template Template](https://github.com/pyrocms-templates/template-template), Default Pyro Builder template for building Pyro Builder templates.
-- [Registry](https://github.com/pyrocms-templates), List of all Pyro Builder available template.
+- [Template Template](https://github.com/pyrocms-templates/template-template), Default Builder extension template for building Builder extension templates.
+- [Registry](https://github.com/pyrocms-templates), List of all Builder extension available template.
 - [Awesome PyroCMS](https://github.com/websemantics/awesome-pyrocms), Curated list of PyroCMS addons and resources.
 - [PyroCMS Cheatsheet](http://websemantics.github.io/pyrocms-cheatsheet), List of commands and features for PyroCMS 3.
 - [PyroCMS](https://github.com/pyrocms/pyrocms), MVC PHP Content Management System built to be easy to use, theme and develop with. It is used by individuals and organizations of all sizes around the world.
