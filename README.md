@@ -95,7 +95,7 @@ php artisan make:addon vendor.skin.sunshine
 
 - Switch to the new skin as described in, [Change Active Skin](#change-active-skin) section.
 
-### Embedded Skin
+### Embedded Skins
 
 The great thing about skins is that, they don't have to be their own addon package. A skin can also be specified within any addon type including `extensions` and `modules`.
 
