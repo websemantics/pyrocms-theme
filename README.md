@@ -83,7 +83,7 @@ PYROCMS_SKIN=websemantics.skin.github
 
 ## How to Create a Skin
 
-Let's say you want to create a new skin called. `sunshine`. Simply follow these steps,
+Let's say you want to create a new skin called. `sunshine`. Simply, follow these steps,
 
 - Create a new skin addon (requires [Builder extension](github.com/websemantics/builder-extension)),
 
@@ -93,7 +93,7 @@ php artisan make:addon vendor.skin.sunshine
 
 - Change skin settings from skin config file, `sunshine-skin/resources/config/skin.php`.
 
-- Switch to the [new skin](#change-active-skin).
+- Switch to the new skin as described in, [Change Active Skin](#change-active-skin) section.
 
 A skin can also be specified within any addon types including Extensions and Modules. All is required is the skin main config files `name-skin/resources/config/skin.php`, a preview image `name-skin/resources/img/name.png` and the skin main style file, `name-skin/resources/scss/skin.scss`.
 
