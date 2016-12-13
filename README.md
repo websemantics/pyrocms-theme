@@ -52,9 +52,9 @@ A skin is a light way to redesign and customize the default theme design to suit
 |---|---|
 | ![Github Skin](https://github.com/websemantics/github-skin/raw/master/resources/img/github.png) | ![Horizon Skin](https://github.com/websemantics/horizon-skin/raw/master/resources/img/horizon.png)  |
 
-| [Stone](https://github.com/websemantics/stone-skin) | Add yours? | ... |
+| [Stone](https://github.com/websemantics/stone-skin) | Add yours? |
 |---|---|
-| ![Stone Skin](https://github.com/websemantics/stone-skin/raw/master/resources/img/stone.png) |  ![Yours Skin](https://websemantics.github.io/pyrocms-theme/assets/img/nopreview.png) | ... |
+| ![Stone Skin](https://github.com/websemantics/stone-skin/raw/master/resources/img/stone.png) | ![Yours Skin](https://websemantics.github.io/pyrocms-theme/assets/img/nopreview.png) |
 
 ### Change Active Skin
 
