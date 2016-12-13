@@ -12,8 +12,8 @@ Head over to the [Skins](#skins) section to learn more about how that works and 
 ## Features
 
 - Easy to customize and style,
-- Comes with 6 Skins out-of-the-box,
-- Supports the official [PyroCMS theme](https://github.com/pyrocms/pyrocms-theme),
+- Comes with [6 skins](#available-skins),
+- Supports the official [PyroCMS Theme](https://github.com/pyrocms/pyrocms-theme),
 - Allows to `sort` and `exclude` modules from the navigation menu (Sidebar),
 - Supports different layouts (for example, with / without top Navbar),
 - Comes with new login page.
