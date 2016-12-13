@@ -3,7 +3,9 @@
 
 ## Introduction
 
-The idea of this project is to build all the style components and layout scaffoldings of a great Admin theme once to eliminate any urges of re-inventing the wheel. The theme allows for a light approach to customize core styles to suit different requirements through the concept of [Skins](#skins). This projects hopes to build a catalog of Admin UI styles and layouts that the community can use and share.
+The idea of this project is to build all the style components and layout scaffoldings of a great Admin theme once to eliminate any urges of re-inventing the wheel.
+
+The theme allows for a light approach to customize core styles to suit different requirements through the concept of [Skins](#skins). This projects hopes to build a catalog of Admin UI styles and layouts that the community can use and share.
 
 Every single line of code or style while writing this theme was carefully placed to perform a function or improve overall user experience. Special care has been taken to make this theme work on desktop and mobile devices with a number of layout options. The theme comes with a dozen of [Skins](#skins) to demonstrate how it works and the options available for customization.
 
@@ -34,7 +36,7 @@ ADMIN_THEME=websemantics.theme.pyrocms
 
 This theme was designed to enable drastic changes to the style, layout and user experience with minimal effort on the behalf of the developer.
 
-This is made possible with Skins, a lightway to redesign and customize the default theme styles to suite your needs.  The `default theme skin`, [Plus Skin](https://github.com/websemantics/plus-skin), shown below, features a sidebar, one of many layout options provided with this theme.
+A skin is a lightway approach to redesign and customize the default theme styles to suite your needs.  The `default theme skin`, [Plus Skin](https://github.com/websemantics/plus-skin), shown below, features a sidebar, one of many layout options provided with this theme. Customization can range from changes to the theme variables, adding additional styles to overriding theme views.
 
 ![Plus Skin](https://github.com/websemantics/plus-skin/raw/master/resources/img/plus.png)
 
