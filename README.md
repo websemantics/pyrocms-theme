@@ -83,7 +83,7 @@ PYROCMS_SKIN=websemantics.skin.github
 
 ## How to Create a Skin
 
-Let's say you want to create a new skin called `sunshine`, simply follow these steps,
+Let's say you want to create a new skin called. `sunshine`. Simply follow these steps,
 
 - Create a new skin addon (requires [Builder extension](github.com/websemantics/builder-extension)),
 
