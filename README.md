@@ -26,27 +26,16 @@ Head over to the [Skins](#skins) section to learn more about how that works and 
 composer require websemantics/pyrocms-theme
 ```
 
-2- Install the theme default skin `plus-skin`,
+2- Install all [available skins](#available-skins),
 
 ```bash
-composer require websemantics/plus-skin
+composer update
 ```
 
 3- Change value of `ADMIN_THEME` in the project `.env` file,  
 
 ```
 ADMIN_THEME=websemantics.theme.pyrocms
-```
-
-4- Optionally, install all [available skins](#available-skins),
-
-```
-composer require websemantics/pyrocms-skin
-composer require websemantics/classic-skin
-composer require websemantics/github-skin
-composer require websemantics/stone-skin
-composer require websemantics/blue-skin
-composer require websemantics/horizon-skin
 ```
 
 ## Skins

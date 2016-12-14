@@ -29,17 +29,13 @@
      "require": {
         "anomaly/settings-module": "~2.1",
         "pyrocms/pyrocms-theme": "~1.1",
-        "websemantics/skins-installer": "~1.0.1"
-    },
-    "scripts": {
-        "post-autoload-dump": [
-          "composer require websemantics/plus-skin",
-          "composer require websemantics/pyrocms-skin",
-          "composer require websemantics/classic-skin",
-          "composer require websemantics/github-skin",
-          "composer require websemantics/stone-skin",
-          "composer require websemantics/blue-skin",
-          "composer require websemantics/horizon-skin"
-        ]
+        "websemantics/skins-installer": "~1.0.1",
+        "websemantics/plus-skin": "~0.1.0",
+        "websemantics/pyrocms-skin": "~0.1.0",
+        "websemantics/classic-skin": "~0.1.0",
+        "websemantics/github-skin": "~0.1.0",
+        "websemantics/stone-skin": "~0.1.0",
+        "websemantics/blue-skin": "~0.1.0",
+        "websemantics/horizon-skin": "~0.1.0"
     }
 }
