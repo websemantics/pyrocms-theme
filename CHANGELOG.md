@@ -1,6 +1,10 @@
 ## Change Log
 All notable changes to this project will be documented in this section.
 
+#### [1.2.7] - 2016-12-14
+##### Changed
+  - Hide `hip-toggle` button from the header for official pyrocms skin
+
 #### [1.2.6] - 2016-12-13
 ##### Changed
   - Require all skins as theme dependencies. Must run `composer update` after the theme is installed to work. Needs fixing!
