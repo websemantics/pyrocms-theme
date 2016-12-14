@@ -32,7 +32,7 @@
         "websemantics/skins-installer": "~1.0.1"
     },
     "scripts": {
-        "post-package-install": [
+        "post-autoload-dump": [
           "composer require websemantics/plus-skin",
           "composer require websemantics/pyrocms-skin",
           "composer require websemantics/classic-skin",

@@ -1,9 +1,9 @@
 ## Change Log
 All notable changes to this project will be documented in this section.
 
-#### [1.2.5] - 2016-**-**
+#### [1.2.5] - 2016-12-13
 ##### Changed
-  - Not released
+  - Install skins `post-autoload-dump`.
 
   #### [1.2.3] - 2016-12-13
   ##### Changed
