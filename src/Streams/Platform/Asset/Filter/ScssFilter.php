@@ -1,7 +1,7 @@
 <?php namespace Websemantics\PyrocmsTheme\Streams\Platform\Asset\Filter;
 
 use Anomaly\Streams\Platform\Asset\AssetParser;
-use Anomaly\Streams\Platform\Asset\Command\LoadThemeVariables;
+use Websemantics\PyrocmsTheme\Streams\Platform\Asset\Command\LoadThemeVariables;
 use Anomaly\Streams\Platform\Support\Collection;
 use Assetic\Asset\AssetInterface;
 use Leafo\ScssPhp\Compiler;
@@ -17,18 +17,24 @@ use Leafo\ScssPhp\Compiler;
 
 class ScssFilter extends \Anomaly\Streams\Platform\Asset\Filter\ScssFilter
 {
-
   /**
    * Create a new ScssFilter instance.
+   * Being lazy, http://www.hackingwithphp.com/6/7/2/private
    *
    * @param AssetParser $parser
    */
   public function __construct(AssetParser $parser)
   {
-    // Being lazy, http://www.hackingwithphp.com/6/7/2/private
+    /* Make 'core' & the active 'skin' folders avilable for @imports */
     $this->importPaths = [base_path('core')];
+
+    if($skin = app('\Anomaly\Streams\Platform\Addon\AddonCollection')
+      ->get(config('websemantics.theme.pyrocms::config.skin'))){
+        $this->importPaths[] = realpath(config($skin->getNamespace("skin.import")));
+    }
+
     parent::__construct($parser);
-}
+  }
 
   /**
    * Filters an asset just before it's dumped.

@@ -1,6 +1,12 @@
 ## Change Log
 All notable changes to this project will be documented in this section.
 
+#### [1.2.3] - 2016-12-13
+##### Changed
+  - Improve style inheritance across themes and skins.
+  - Load the theme and skin variables `LoadThemeVariables` for field types and other addons.
+  - Install skins with `composer scripts`.
+
 #### [1.2.2] - 2016-12-13
 ##### Changed
   - Remove skins dependencies. Skins must be composer required after the theme.

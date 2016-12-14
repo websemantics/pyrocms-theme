@@ -41,11 +41,11 @@ $gray-light: #818a91 !default;
 $gray-lighter: #eceeef !default;
 $gray-lightest: #f7f7f9 !default;
 
-$brand-primary: $purple;
-$brand-success: $green;
-$brand-info: $blue;
-$brand-warning: $orange;
-$brand-danger: $red;
+$brand-primary: $purple !default;
+$brand-success: $green !default;
+$brand-info: $blue !default;
+$brand-warning: $orange !default;
+$brand-danger: $red !default;
 
 $white: #fff;
 
@@ -674,7 +674,7 @@ $header-bg: transparent !default;
 
 /* toggle button variables */
 $toggle-text-color: rgba(0, 0, 0, 0.3) !default;
-$toggle-bg: $brand-bg !default;
+$toggle-bg: $brand-primary !default;
 $toggle-hover-text-color: $white !default;
 $toggle-hover-text-opacity: 0.3 !default;
 

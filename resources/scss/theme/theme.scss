@@ -2,15 +2,52 @@
 // Theme imports
 //
 
+// 1- Active Skin Variables
+@import "skin/variables";
+
+// 2- Theme Variables
 @import "variables";
-@import "pyrocms/pyrocms-theme/resources/scss/theme/theme";
-@import "components/scaffolding";
-@import "components/cards";
-@import "components/trees";
-@import "components/modal";
-@import "components/buttons";
-@import "components/image-select";
-@import "components/toggle";
+
+// 3- Official PyroCMS Theme & Bootstrap Imports
+// Bootstrap base styles
+@import "pyrocms/pyrocms-theme/resources/scss/bootstrap/bootstrap";
+// Utilities
+@import "pyrocms/pyrocms-theme/resources/scss/theme/mixins";
+// Layout
+@import "pyrocms/pyrocms-theme/resources/scss/theme/layout/menu";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/layout/push";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/layout/brand";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/layout/banner";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/layout/navbar";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/layout/header";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/layout/footer";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/layout/buttons";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/layout/sections";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/layout/navigation";
+// Components
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/nav";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/type";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/cards";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/forms";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/trees";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/loader";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/modals";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/tables";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/animate";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/buttons";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/progress";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/utilities";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/breadcrumb";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/pagination";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/input-group";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/scaffolding";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/components/custom-forms";
+// Special Pages
+@import "pyrocms/pyrocms-theme/resources/scss/theme/pages/login";
+@import "pyrocms/pyrocms-theme/resources/scss/theme/pages/installer";
+
+// 4- PyroCMS Plus Theme Imports
+// Layout
 @import "layout/brand";
 @import "layout/footer";
 @import "layout/header";
@@ -20,4 +57,16 @@
 @import "layout/sections";
 @import "layout/sidebar";
 @import "layout/banner";
+// Components
+@import "components/scaffolding";
+@import "components/cards";
+@import "components/trees";
+@import "components/modal";
+@import "components/buttons";
+@import "components/image-select";
+@import "components/toggle";
+// Special Pages
 @import "pages/login";
+
+// 5- Active Skin Imports
+@import "skin/skin";

@@ -11,8 +11,7 @@
 <link rel="icon" type="image/x-icon" href="{{ image_path('theme::img/favicon.png') }}">
 <link rel="shortcut icon" type="image/x-icon" href="{{ image_path('theme::img/favicon.png') }}">
 <link rel="apple-touch-icon" type="image/x-icon" href="{{ image_path('theme::img/favicon.png') }}"/>
-
-{{ asset_add("theme.css", config((setting_value('websemantics.theme.pyrocms::skin')?:env('PYROCMS_SKIN')) ~ "::skin.import")) }}
+{{ asset_add("theme.css", "theme::scss/theme/theme.scss") }}
 {{ asset_add("theme.css", "pyrocms.theme.pyrocms::less/fonts/fonts.less", ["parse"]) }}
 {{ asset_add("theme.js", "pyrocms.theme.pyrocms::js/vendor/*") }}
 {{ asset_add("theme.js", "pyrocms.theme.pyrocms::js/libraries/tether.min.js") }}

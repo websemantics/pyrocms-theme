@@ -30,5 +30,18 @@
         "anomaly/settings-module": "~2.1",
         "pyrocms/pyrocms-theme": "~1.1",
         "websemantics/skins-installer": "~1.0.1"
+    },
+    "scripts": {
+        "post-package-install": [
+          "composer require websemantics/plus-skin",
+          "composer require websemantics/pyrocms-skin",
+          "composer require websemantics/classic-skin",
+          "composer require websemantics/github-skin",
+          "composer require websemantics/stone-skin",
+          "composer require websemantics/blue-skin",
+          "composer require websemantics/horizon-skin"
+        ]
     }
 }
+
+"./bin/install.sh"
